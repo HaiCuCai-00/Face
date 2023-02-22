@@ -1,0 +1,669 @@
+2022-11-12 10:43:10.463 | DEBUG    | module.milvus_helpers:__init__:18 -  Successfully connect to MiLvus with IP: 0.0.0.0 and Port: 19530
+INFO:     Started server process [1748645]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
+INFO:     45.89.55.10:63778 - "GET / HTTP/1.1" 404 Not Found
+INFO:     45.89.55.10:63778 - "GET / HTTP/1.1" 404 Not Found
+/home/ai-r-d/anaconda3/envs/client/lib/python3.10/site-packages/onnxruntime/capi/onnxruntime_inference_collection.py:54: UserWarning: Specified provider 'CUDAExecutionProvider' is not in available provider names.Available providers: 'CPUExecutionProvider'
+  warnings.warn(
+2022-11-12 11:23:44.907 | ERROR    | __main__:search:301 - Can't rotate image face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+INFO:     123.24.206.26:36908 - "POST /recognize HTTP/1.1" 200 OK
+/media/ai-r-d/DATA1/Face_triton/service/face_service_H.py:329: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  x1,y1,x2,y2,score = bbox.astype(np.int)
+2022-11-12 11:23:53.477 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 106.05813598632812, id: 436952627349296881)']"]
+2022-11-12 11:23:53.478 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+2022-11-12 11:23:53.478 | ERROR    | __main__:search:362 - list index out of range
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[133.92946    87.82907   501.5075    499.87415     0.6124591]]
+box [[133.92946    87.82907   501.5075    499.87415     0.6124591]]
+1
+["['(distance: 106.05813598632812, id: 436952627349296881)']"]
+path:  []
+time:  0.23470664024353027
+id []
+distance [106.05813598632812]
+INFO:     123.24.206.26:34284 - "POST /recognize HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Unsupported upgrade request.
+WARNING:  Invalid HTTP request received.
+2022-11-12 12:02:40.507 | ERROR    | __main__:search:301 - Can't rotate image face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+INFO:     123.24.206.26:38420 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-12 12:02:56.127 | ERROR    | __main__:search:301 - Can't rotate image face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+INFO:     123.24.206.26:62323 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-12 12:03:07.239 | ERROR    | __main__:search:301 - Can't rotate image face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+INFO:     123.24.206.26:37395 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-12 12:03:16.039 | ERROR    | __main__:search:301 - Can't rotate image face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+INFO:     123.24.206.26:45141 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-12 12:03:22.263 | ERROR    | __main__:search:301 - Can't rotate image face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+INFO:     123.24.206.26:41443 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-12 12:03:35.952 | ERROR    | __main__:search:301 - Can't rotate image face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+INFO:     123.24.206.26:51836 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-12 12:03:44.877 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 374.6346130371094, id: 436952627349301320)']"]
+2022-11-12 12:03:44.878 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+2022-11-12 12:03:44.878 | ERROR    | __main__:search:362 - list index out of range
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[130.03413     98.56433    466.5401     440.28833      0.66625524]]
+box [[130.03413     98.56433    466.5401     440.28833      0.66625524]]
+1
+["['(distance: 374.6346130371094, id: 436952627349301320)']"]
+path:  []
+time:  0.26010632514953613
+id []
+distance [374.6346130371094]
+INFO:     123.24.206.26:60310 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-12 12:04:04.004 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 303.0195617675781, id: 436952627349301320)']"]
+2022-11-12 12:04:04.004 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+2022-11-12 12:04:04.005 | ERROR    | __main__:search:362 - list index out of range
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[181.98048   143.44373   483.45758   448.91302     0.7768028]
+ [-17.644531  336.0912     54.534348  421.77988     0.6098772]]
+box [[181.98048   143.44373   483.45758   448.91302     0.7768028]
+ [-17.644531  336.0912     54.534348  421.77988     0.6098772]]
+1
+["['(distance: 303.0195617675781, id: 436952627349301320)']"]
+path:  []
+time:  0.22550582885742188
+id []
+distance [303.0195617675781]
+INFO:     123.24.206.26:34267 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-12 12:04:11.662 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 307.76275634765625, id: 437208412565016254)']"]
+2022-11-12 12:04:11.662 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+2022-11-12 12:04:11.663 | ERROR    | __main__:search:362 - list index out of range
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[199.89894   195.4889    500.8143    495.8726      0.8308529]]
+box [[199.89894   195.4889    500.8143    495.8726      0.8308529]]
+1
+["['(distance: 307.76275634765625, id: 437208412565016254)']"]
+path:  []
+time:  0.24716591835021973
+id []
+distance [307.76275634765625]
+INFO:     123.24.206.26:58291 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-12 12:04:21.928 | ERROR    | __main__:search:301 - Can't rotate image face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+INFO:     123.24.206.26:41864 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-12 12:04:36.186 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 293.2648620605469, id: 436952627349301320)']"]
+2022-11-12 12:04:36.187 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+2022-11-12 12:04:36.187 | ERROR    | __main__:search:362 - list index out of range
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[209.49835   186.15758   483.61536   442.96414     0.8069514]]
+box [[209.49835   186.15758   483.61536   442.96414     0.8069514]]
+1
+["['(distance: 293.2648620605469, id: 436952627349301320)']"]
+path:  []
+time:  0.22679615020751953
+id []
+distance [293.2648620605469]
+INFO:     123.24.206.26:57143 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-12 12:04:38.826 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 188.99380493164062, id: 436952627349303909)']"]
+2022-11-12 12:04:38.826 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+2022-11-12 12:04:38.826 | ERROR    | __main__:search:362 - list index out of range
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[129.19786    188.5604     439.44766    488.10876      0.78624874]]
+box [[129.19786    188.5604     439.44766    488.10876      0.78624874]]
+1
+["['(distance: 188.99380493164062, id: 436952627349303909)']"]
+path:  []
+time:  0.21814417839050293
+id []
+distance [188.99380493164062]
+INFO:     123.24.206.26:56569 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-12 12:04:45.207 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 236.84835815429688, id: 437208412565016254)']"]
+2022-11-12 12:04:45.208 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+2022-11-12 12:04:45.208 | ERROR    | __main__:search:362 - list index out of range
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[179.44087    86.46889   461.5507    361.24945     0.8169702]]
+box [[179.44087    86.46889   461.5507    361.24945     0.8169702]]
+1
+["['(distance: 236.84835815429688, id: 437208412565016254)']"]
+path:  []
+time:  0.23203063011169434
+id []
+distance [236.84835815429688]
+INFO:     123.24.206.26:49498 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-12 12:04:47.930 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 206.77615356445312, id: 436952627349303909)']"]
+2022-11-12 12:04:47.931 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+2022-11-12 12:04:47.931 | ERROR    | __main__:search:362 - list index out of range
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[168.70473    190.25154    454.1621     466.76556      0.79657376]]
+box [[168.70473    190.25154    454.1621     466.76556      0.79657376]]
+1
+["['(distance: 206.77615356445312, id: 436952627349303909)']"]
+path:  []
+time:  0.19182229042053223
+id []
+distance [206.77615356445312]
+INFO:     123.24.206.26:40721 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-12 12:05:02.579 | ERROR    | __main__:search:301 - Can't rotate image face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+INFO:     123.24.206.26:51996 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-12 12:05:04.156 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 231.10125732421875, id: 436952627349303909)']"]
+2022-11-12 12:05:04.156 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+2022-11-12 12:05:04.156 | ERROR    | __main__:search:362 - list index out of range
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[170.46799   112.18893   428.99054   363.1093      0.7894746]]
+box [[170.46799   112.18893   428.99054   363.1093      0.7894746]]
+1
+["['(distance: 231.10125732421875, id: 436952627349303909)']"]
+path:  []
+time:  0.22396159172058105
+id []
+distance [231.10125732421875]
+INFO:     123.24.206.26:34826 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-12 12:05:09.687 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 333.28631591796875, id: 436952627349301320)']"]
+2022-11-12 12:05:09.687 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+2022-11-12 12:05:09.687 | ERROR    | __main__:search:362 - list index out of range
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[200.53186    158.94907    471.6867     425.07062      0.82035226]]
+box [[200.53186    158.94907    471.6867     425.07062      0.82035226]]
+1
+["['(distance: 333.28631591796875, id: 436952627349301320)']"]
+path:  []
+time:  0.20067667961120605
+id []
+distance [333.28631591796875]
+INFO:     123.24.206.26:37816 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-12 12:05:16.901 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 351.5271301269531, id: 436952627349301320)']"]
+2022-11-12 12:05:16.902 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+2022-11-12 12:05:16.902 | ERROR    | __main__:search:362 - list index out of range
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[216.74657    160.39175    486.1786     421.7783       0.87743664]]
+box [[216.74657    160.39175    486.1786     421.7783       0.87743664]]
+1
+["['(distance: 351.5271301269531, id: 436952627349301320)']"]
+path:  []
+time:  0.20367169380187988
+id []
+distance [351.5271301269531]
+INFO:     123.24.206.26:33539 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-12 12:05:19.329 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 209.2995147705078, id: 436952627349303909)']"]
+2022-11-12 12:05:19.329 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+2022-11-12 12:05:19.329 | ERROR    | __main__:search:362 - list index out of range
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[167.94797    232.22435    441.74408    483.15094      0.7957319 ]
+ [499.12552    156.38925    554.6053     239.46536      0.63830566]]
+box [[167.94797    232.22435    441.74408    483.15094      0.7957319 ]
+ [499.12552    156.38925    554.6053     239.46536      0.63830566]]
+1
+["['(distance: 209.2995147705078, id: 436952627349303909)']"]
+path:  []
+time:  0.2152843475341797
+id []
+distance [209.2995147705078]
+INFO:     123.24.206.26:51528 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-12 12:05:21.719 | ERROR    | __main__:search:301 - Can't rotate image face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+INFO:     123.24.206.26:45805 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-12 12:05:31.582 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 246.0176239013672, id: 437314842053312575)']"]
+2022-11-12 12:05:31.582 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[238.63799    124.41966    509.63837    400.68384      0.85161924]]
+box [[238.63799    124.41966    509.63837    400.68384      0.85161924]]
+1
+["['(distance: 246.0176239013672, id: 437314842053312575)']"]
+('61c6c1888d4c8e02a8d83947', 'static/98c32a825efe11ed8a8bb108c0801c44_61c6c1888d4c8e02a8d83947.jpg')
+path:  ['static/98c32a825efe11ed8a8bb108c0801c44_61c6c1888d4c8e02a8d83947.jpg']
+time:  0.209547758102417
+id ['61c6c1888d4c8e02a8d83947']
+distance [246.0176239013672]
+INFO:     123.24.206.26:50681 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-12 12:05:51.113 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 260.849609375, id: 436952627349301320)']"]
+2022-11-12 12:05:51.114 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+2022-11-12 12:05:51.114 | ERROR    | __main__:search:362 - list index out of range
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[178.6219    155.79318   476.27524   451.4289      0.7505208]]
+box [[178.6219    155.79318   476.27524   451.4289      0.7505208]]
+1
+["['(distance: 260.849609375, id: 436952627349301320)']"]
+path:  []
+time:  0.22757267951965332
+id []
+distance [260.849609375]
+INFO:     123.24.206.26:47555 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-12 12:05:52.509 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 178.06430053710938, id: 436952627349303909)']"]
+2022-11-12 12:05:52.509 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+2022-11-12 12:05:52.509 | ERROR    | __main__:search:362 - list index out of range
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[145.19873   183.00139   439.5597    464.49594     0.8433803]]
+box [[145.19873   183.00139   439.5597    464.49594     0.8433803]]
+1
+["['(distance: 178.06430053710938, id: 436952627349303909)']"]
+path:  []
+time:  0.23839378356933594
+id []
+distance [178.06430053710938]
+INFO:     123.24.206.26:49627 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-12 12:05:59.267 | ERROR    | __main__:search:301 - Can't rotate image face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+INFO:     123.24.206.26:60509 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-12 12:06:46.396 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 336.911376953125, id: 437208412565019184)']"]
+2022-11-12 12:06:46.397 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+2022-11-12 12:06:46.397 | ERROR    | __main__:search:362 - list index out of range
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[189.72162  230.78743  471.9822   523.2129     0.841647]]
+box [[189.72162  230.78743  471.9822   523.2129     0.841647]]
+1
+["['(distance: 336.911376953125, id: 437208412565019184)']"]
+path:  []
+time:  0.20548748970031738
+id []
+distance [336.911376953125]
+INFO:     123.24.206.26:43318 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-12 12:06:58.862 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 225.726318359375, id: 437208412565019418)']"]
+2022-11-12 12:06:58.863 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+2022-11-12 12:06:58.863 | ERROR    | __main__:search:362 - list index out of range
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[189.74954    179.90921    495.95325    497.5235       0.81944984]]
+box [[189.74954    179.90921    495.95325    497.5235       0.81944984]]
+1
+["['(distance: 225.726318359375, id: 437208412565019418)']"]
+path:  []
+time:  0.21741247177124023
+id []
+distance [225.726318359375]
+INFO:     123.24.206.26:47631 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-12 12:16:54.397 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 235.864013671875, id: 437314842053312533)']"]
+2022-11-12 12:16:54.398 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[131.96515    104.77726    444.5774     344.68335      0.68349814]]
+box [[131.96515    104.77726    444.5774     344.68335      0.68349814]]
+1
+["['(distance: 235.864013671875, id: 437314842053312533)']"]
+('62fc7496422ac27d7b64d8bc', 'static/4d6e9b4a5e8e11ed8a8bb108c0801c44_62fc7496422ac27d7b64d8bc.jpg')
+path:  ['static/4d6e9b4a5e8e11ed8a8bb108c0801c44_62fc7496422ac27d7b64d8bc.jpg']
+time:  0.20303678512573242
+id ['62fc7496422ac27d7b64d8bc']
+distance [235.864013671875]
+INFO:     123.24.206.26:60217 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-12 12:17:33.100 | ERROR    | __main__:search:323 - Not face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box []
+INFO:     123.24.206.26:39077 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-12 12:17:37.520 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 255.18344116210938, id: 436952627349291210)']"]
+2022-11-12 12:17:37.521 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+2022-11-12 12:17:37.521 | ERROR    | __main__:search:362 - list index out of range
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[208.16846    205.33575    527.3421     503.42786      0.67682457]]
+box [[208.16846    205.33575    527.3421     503.42786      0.67682457]]
+1
+["['(distance: 255.18344116210938, id: 436952627349291210)']"]
+path:  []
+time:  0.13676238059997559
+id []
+distance [255.18344116210938]
+INFO:     123.24.206.26:64900 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-12 12:17:48.940 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 181.4137725830078, id: 436952627349291210)']"]
+2022-11-12 12:17:48.941 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+2022-11-12 12:17:48.941 | ERROR    | __main__:search:362 - list index out of range
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[201.19054   198.08694   561.70795   510.48694     0.6352142]]
+box [[201.19054   198.08694   561.70795   510.48694     0.6352142]]
+1
+["['(distance: 181.4137725830078, id: 436952627349291210)']"]
+path:  []
+time:  0.15820050239562988
+id []
+distance [181.4137725830078]
+INFO:     123.24.206.26:49207 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-12 12:17:55.203 | ERROR    | __main__:search:323 - Not face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box []
+INFO:     123.24.206.26:46581 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-12 12:18:07.683 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 227.03961181640625, id: 436952627349291210)']"]
+2022-11-12 12:18:07.684 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+2022-11-12 12:18:07.684 | ERROR    | __main__:search:362 - list index out of range
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[188.26416    180.36269    510.2292     449.38016      0.66712487]]
+box [[188.26416    180.36269    510.2292     449.38016      0.66712487]]
+1
+["['(distance: 227.03961181640625, id: 436952627349291210)']"]
+path:  []
+time:  0.1317763328552246
+id []
+distance [227.03961181640625]
+INFO:     123.24.206.26:61735 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-12 12:18:12.072 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 206.4899139404297, id: 436952627349291210)']"]
+2022-11-12 12:18:12.072 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+2022-11-12 12:18:12.073 | ERROR    | __main__:search:362 - list index out of range
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[182.70895    174.12567    516.78735    450.90222      0.63174903]]
+box [[182.70895    174.12567    516.78735    450.90222      0.63174903]]
+1
+["['(distance: 206.4899139404297, id: 436952627349291210)']"]
+path:  []
+time:  0.15050387382507324
+id []
+distance [206.4899139404297]
+INFO:     123.24.206.26:44306 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-12 12:18:19.952 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 212.5016632080078, id: 437208412565018029)']"]
+2022-11-12 12:18:19.952 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+2022-11-12 12:18:19.952 | ERROR    | __main__:search:362 - list index out of range
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[126.69348   104.75621   524.8756    427.83856     0.6318952]]
+box [[126.69348   104.75621   524.8756    427.83856     0.6318952]]
+1
+["['(distance: 212.5016632080078, id: 437208412565018029)']"]
+path:  []
+time:  0.13798999786376953
+id []
+distance [212.5016632080078]
+INFO:     123.24.206.26:58744 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-12 12:18:29.204 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 239.9141845703125, id: 436952627349291210)']"]
+2022-11-12 12:18:29.205 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+2022-11-12 12:18:29.205 | ERROR    | __main__:search:362 - list index out of range
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[212.94283    155.42946    525.3044     425.01263      0.70900625]]
+box [[212.94283    155.42946    525.3044     425.01263      0.70900625]]
+1
+["['(distance: 239.9141845703125, id: 436952627349291210)']"]
+path:  []
+time:  0.14023828506469727
+id []
+distance [239.9141845703125]
+INFO:     123.24.206.26:60003 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-12 12:18:37.524 | ERROR    | __main__:search:323 - Not face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box []
+INFO:     123.24.206.26:49634 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-12 12:18:44.156 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 222.8399200439453, id: 436952627349291210)']"]
+2022-11-12 12:18:44.156 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+2022-11-12 12:18:44.156 | ERROR    | __main__:search:362 - list index out of range
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[222.19748   183.4023    527.36664   446.75616     0.6497402]]
+box [[222.19748   183.4023    527.36664   446.75616     0.6497402]]
+1
+["['(distance: 222.8399200439453, id: 436952627349291210)']"]
+path:  []
+time:  0.1302809715270996
+id []
+distance [222.8399200439453]
+INFO:     123.24.206.26:42448 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-12 12:18:50.373 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 198.98812866210938, id: 436952627349291210)']"]
+2022-11-12 12:18:50.374 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+2022-11-12 12:18:50.374 | ERROR    | __main__:search:362 - list index out of range
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[193.08722   217.11629   505.0808    477.1164      0.7259246]]
+box [[193.08722   217.11629   505.0808    477.1164      0.7259246]]
+1
+["['(distance: 198.98812866210938, id: 436952627349291210)']"]
+path:  []
+time:  0.13100576400756836
+id []
+distance [198.98812866210938]
+INFO:     123.24.206.26:37814 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-12 12:18:58.424 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 226.67124938964844, id: 436952627349291210)']"]
+2022-11-12 12:18:58.424 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+2022-11-12 12:18:58.424 | ERROR    | __main__:search:362 - list index out of range
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[217.1663    181.03981   546.23566   453.32806     0.6267177]]
+box [[217.1663    181.03981   546.23566   453.32806     0.6267177]]
+1
+["['(distance: 226.67124938964844, id: 436952627349291210)']"]
+path:  []
+time:  0.13859772682189941
+id []
+distance [226.67124938964844]
+INFO:     123.24.206.26:56716 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-12 12:19:02.927 | ERROR    | __main__:search:323 - Not face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box []
+INFO:     123.24.206.26:37984 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-12 12:19:08.130 | ERROR    | __main__:search:323 - Not face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box []
+INFO:     123.24.206.26:47060 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-12 12:19:25.993 | ERROR    | __main__:search:323 - Not face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box []
+INFO:     123.24.206.26:45865 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-12 12:19:47.718 | ERROR    | __main__:search:323 - Not face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box []
+INFO:     123.24.206.26:65340 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-12 12:24:19.782 | ERROR    | __main__:search:323 - Not face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box []
+INFO:     123.24.206.26:57480 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-12 12:24:25.255 | ERROR    | __main__:search:323 - Not face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box []
+INFO:     123.24.206.26:48557 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-12 12:24:35.212 | ERROR    | __main__:search:323 - Not face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box []
+INFO:     123.24.206.26:60784 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-12 12:24:40.638 | ERROR    | __main__:search:323 - Not face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box []
+INFO:     123.24.206.26:33035 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-12 12:24:59.540 | DEBUG    | module.mysql_helpers:show_image:92 - Mysql search by image: ['6284680ef6f4201104b3af75']
+INFO:     123.24.206.26:64979 - "POST /showimage HTTP/1.1" 200 OK
+2022-11-12 12:25:30.116 | ERROR    | __main__:search:323 - Not face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box []
+INFO:     123.24.206.26:65109 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-12 12:25:35.044 | ERROR    | __main__:search:323 - Not face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box []
+INFO:     123.24.206.26:59027 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-12 12:25:39.667 | ERROR    | __main__:search:323 - Not face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box []
+INFO:     123.24.206.26:37225 - "POST /recognize HTTP/1.1" 200 OK

@@ -1,0 +1,100 @@
+2022-11-22 11:35:14.471 | DEBUG    | module.milvus_helpers:__init__:18 -  Successfully connect to MiLvus with IP: 0.0.0.0 and Port: 19530
+INFO:     Started server process [8073]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
+INFO:     123.24.206.26:60816 - "GET /docs HTTP/1.1" 200 OK
+INFO:     123.24.206.26:60816 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     193.142.146.101:58420 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     123.25.86.41:60073 - "GET / HTTP/1.1" 404 Not Found
+INFO:     114.134.11.31:56035 - "GET / HTTP/1.1" 404 Not Found
+INFO:     193.142.146.101:57350 - "GET / HTTP/1.1" 404 Not Found
+INFO:     205.210.31.172:57988 - "GET / HTTP/1.1" 404 Not Found
+INFO:     80.94.92.40:40710 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Unsupported upgrade request.
+INFO:     193.142.146.101:45444 - "GET / HTTP/1.1" 404 Not Found
+INFO:     45.142.192.5:36260 - "GET / HTTP/1.1" 404 Not Found
+INFO:     193.142.146.101:59538 - "GET / HTTP/1.1" 404 Not Found
+/home/ai-r-d/anaconda3/envs/client/lib/python3.10/site-packages/onnxruntime/capi/onnxruntime_inference_collection.py:54: UserWarning: Specified provider 'CUDAExecutionProvider' is not in available provider names.Available providers: 'CPUExecutionProvider'
+  warnings.warn(
+2022-11-22 13:46:21.492 | ERROR    | __main__:search:375 - [StatusCode.UNAVAILABLE] failed to connect to all addresses
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+INFO:     123.24.206.26:60447 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-22 13:46:33.217 | ERROR    | __main__:search:375 - [StatusCode.UNAVAILABLE] failed to connect to all addresses
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+INFO:     123.24.206.26:44616 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-22 13:46:44.892 | ERROR    | __main__:search:375 - [StatusCode.UNAVAILABLE] failed to connect to all addresses
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+INFO:     123.24.206.26:60746 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-22 13:47:06.631 | ERROR    | __main__:search:375 - [StatusCode.UNAVAILABLE] failed to connect to all addresses
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+INFO:     123.24.206.26:59454 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-22 13:47:15.883 | DEBUG    | module.mysql_helpers:show_image:92 - Mysql search by image: ['62846811f6f4201104b3af89']
+INFO:     123.24.206.26:46042 - "POST /showimage HTTP/1.1" 200 OK
+INFO:     27.67.141.236:59429 - "GET /7a9d193c622811edaede09a65ce7aeeb_62846811f6f4201104b3af89.jpg HTTP/1.1" 200 OK
+2022-11-22 13:47:39.499 | ERROR    | __main__:search:301 - Can't rotate image face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+INFO:     123.24.206.26:34510 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-22 13:47:51.080 | ERROR    | __main__:search:301 - Can't rotate image face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+INFO:     123.24.206.26:50647 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-22 13:48:09.172 | ERROR    | __main__:search:301 - Can't rotate image face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+INFO:     123.24.206.26:61271 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-22 13:48:18.130 | ERROR    | __main__:search:375 - [StatusCode.UNAVAILABLE] failed to connect to all addresses
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+INFO:     123.24.206.26:64504 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-22 13:48:27.645 | ERROR    | __main__:search:375 - [StatusCode.UNAVAILABLE] failed to connect to all addresses
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+INFO:     123.24.206.26:45529 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-22 13:48:35.718 | ERROR    | __main__:search:375 - [StatusCode.UNAVAILABLE] failed to connect to all addresses
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+INFO:     123.24.206.26:49439 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-22 13:48:50.128 | ERROR    | __main__:search:375 - [StatusCode.UNAVAILABLE] failed to connect to all addresses
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+INFO:     123.24.206.26:32877 - "POST /recognize HTTP/1.1" 200 OK

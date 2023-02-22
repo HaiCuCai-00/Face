@@ -1,0 +1,1 @@
+2023-01-05 18:38:32.764 | DEBUG    | module.milvus_helpers:__init__:20 - Faild to load data to Milvus <BaseException: (code=2, message=Fail connecting to server on 0.0.0.0:19530. Timeout)>

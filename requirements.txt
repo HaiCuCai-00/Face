@@ -1,0 +1,11 @@
+loguru
+fvcore
+onnxruntime
+opencv-python
+scikit-image
+numpy
+numba
+faiss-gpu
+matplotlib
+scikit-learn
+pytorch
